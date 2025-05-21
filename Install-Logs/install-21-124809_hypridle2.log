@@ -1,0 +1,4 @@
+-- Install configuration: "Release"
+-- Installing: /usr/local/bin/hypridle
+-- Installing: /usr/local/lib/systemd/user/hypridle.service
+[32m[OK](B[m [35mhypridle v0.1.2(B[m has been successfully installed.

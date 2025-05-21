@@ -1,0 +1,180 @@
+running install
+/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running bdist_egg
+running egg_info
+creating nwg_displays.egg-info
+writing nwg_displays.egg-info/PKG-INFO
+writing dependency_links to nwg_displays.egg-info/dependency_links.txt
+writing entry points to nwg_displays.egg-info/entry_points.txt
+writing top-level names to nwg_displays.egg-info/top_level.txt
+writing manifest file 'nwg_displays.egg-info/SOURCES.txt'
+reading manifest file 'nwg_displays.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'nwg_displays.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/nwg_displays
+copying nwg_displays/__about__.py -> build/lib/nwg_displays
+copying nwg_displays/main.py -> build/lib/nwg_displays
+copying nwg_displays/tools.py -> build/lib/nwg_displays
+copying nwg_displays/__init__.py -> build/lib/nwg_displays
+/usr/lib/python3/dist-packages/setuptools/command/build_py.py:204: _Warning: Package 'nwg_displays.langs' is absent from the `packages` configuration.
+!!
+
+        ********************************************************************************
+        ############################
+        # Package would be ignored #
+        ############################
+        Python recognizes 'nwg_displays.langs' as an importable package[^1],
+        but it is absent from setuptools' `packages` configuration.
+
+        This leads to an ambiguous overall configuration. If you want to distribute this
+        package, please make sure that 'nwg_displays.langs' is explicitly added
+        to the `packages` configuration field.
+
+        Alternatively, you can also rely on setuptools' discovery methods
+        (for example by using `find_namespace_packages(...)`/`find_namespace:`
+        instead of `find_packages(...)`/`find:`).
+
+        You can read more about "package discovery" on setuptools documentation page:
+
+        - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+        If you don't want 'nwg_displays.langs' to be distributed and are
+        already explicitly excluding 'nwg_displays.langs' via
+        `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+        you can try to use `exclude_package_data`, or `include-package-data=False` in
+        combination with a more fine grained `package-data` configuration.
+
+        You can read more about "package data files" on setuptools documentation page:
+
+        - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+        [^1]: For Python, any directory (with suitable naming) can be imported,
+              even if it does not contain any `.py` files.
+              On the other hand, currently there is no concept of package data
+              directory, all directories are treated like packages.
+        ********************************************************************************
+
+!!
+  check.warn(importable)
+/usr/lib/python3/dist-packages/setuptools/command/build_py.py:204: _Warning: Package 'nwg_displays.resources' is absent from the `packages` configuration.
+!!
+
+        ********************************************************************************
+        ############################
+        # Package would be ignored #
+        ############################
+        Python recognizes 'nwg_displays.resources' as an importable package[^1],
+        but it is absent from setuptools' `packages` configuration.
+
+        This leads to an ambiguous overall configuration. If you want to distribute this
+        package, please make sure that 'nwg_displays.resources' is explicitly added
+        to the `packages` configuration field.
+
+        Alternatively, you can also rely on setuptools' discovery methods
+        (for example by using `find_namespace_packages(...)`/`find_namespace:`
+        instead of `find_packages(...)`/`find:`).
+
+        You can read more about "package discovery" on setuptools documentation page:
+
+        - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+        If you don't want 'nwg_displays.resources' to be distributed and are
+        already explicitly excluding 'nwg_displays.resources' via
+        `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+        you can try to use `exclude_package_data`, or `include-package-data=False` in
+        combination with a more fine grained `package-data` configuration.
+
+        You can read more about "package data files" on setuptools documentation page:
+
+        - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+        [^1]: For Python, any directory (with suitable naming) can be imported,
+              even if it does not contain any `.py` files.
+              On the other hand, currently there is no concept of package data
+              directory, all directories are treated like packages.
+        ********************************************************************************
+
+!!
+  check.warn(importable)
+creating build/lib/nwg_displays/langs
+copying nwg_displays/langs/en_US.json -> build/lib/nwg_displays/langs
+copying nwg_displays/langs/pl_PL.json -> build/lib/nwg_displays/langs
+copying nwg_displays/langs/ru_RU.json -> build/lib/nwg_displays/langs
+creating build/lib/nwg_displays/resources
+copying nwg_displays/resources/main.glade -> build/lib/nwg_displays/resources
+copying nwg_displays/resources/style.css -> build/lib/nwg_displays/resources
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/nwg_displays
+copying build/lib/nwg_displays/__about__.py -> build/bdist.linux-x86_64/egg/nwg_displays
+creating build/bdist.linux-x86_64/egg/nwg_displays/resources
+copying build/lib/nwg_displays/resources/style.css -> build/bdist.linux-x86_64/egg/nwg_displays/resources
+copying build/lib/nwg_displays/resources/main.glade -> build/bdist.linux-x86_64/egg/nwg_displays/resources
+creating build/bdist.linux-x86_64/egg/nwg_displays/langs
+copying build/lib/nwg_displays/langs/pl_PL.json -> build/bdist.linux-x86_64/egg/nwg_displays/langs
+copying build/lib/nwg_displays/langs/en_US.json -> build/bdist.linux-x86_64/egg/nwg_displays/langs
+copying build/lib/nwg_displays/langs/ru_RU.json -> build/bdist.linux-x86_64/egg/nwg_displays/langs
+copying build/lib/nwg_displays/main.py -> build/bdist.linux-x86_64/egg/nwg_displays
+copying build/lib/nwg_displays/tools.py -> build/bdist.linux-x86_64/egg/nwg_displays
+copying build/lib/nwg_displays/__init__.py -> build/bdist.linux-x86_64/egg/nwg_displays
+byte-compiling build/bdist.linux-x86_64/egg/nwg_displays/__about__.py to __about__.cpython-312.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nwg_displays/main.py to main.cpython-312.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nwg_displays/tools.py to tools.cpython-312.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nwg_displays/__init__.py to __init__.cpython-312.pyc
+writing byte-compilation script '/tmp/tmp5tmwgnzv.py'
+/usr/bin/python3 /tmp/tmp5tmwgnzv.py
+removing /tmp/tmp5tmwgnzv.py
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying nwg_displays.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nwg_displays.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nwg_displays.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nwg_displays.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nwg_displays.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+nwg_displays.__pycache__.main.cpython-312.opt-1: module references __file__
+nwg_displays.__pycache__.main.cpython-312: module references __file__
+creating dist
+creating 'dist/nwg_displays-0.3.22-py3.12.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing nwg_displays-0.3.22-py3.12.egg
+creating /usr/local/lib/python3.12/dist-packages/nwg_displays-0.3.22-py3.12.egg
+Extracting nwg_displays-0.3.22-py3.12.egg to /usr/local/lib/python3.12/dist-packages
+Adding nwg-displays 0.3.22 to easy-install.pth file
+Installing nwg-displays script to /usr/local/bin
+
+Installed /usr/local/lib/python3.12/dist-packages/nwg_displays-0.3.22-py3.12.egg
+Processing dependencies for nwg-displays==0.3.22
+Finished processing dependencies for nwg-displays==0.3.22
+[32m[OK](B[m [35mnwg-displays v0.3.22(B[m installed successfully.

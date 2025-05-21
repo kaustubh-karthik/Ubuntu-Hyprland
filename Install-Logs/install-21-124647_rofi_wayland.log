@@ -1,0 +1,623 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Suggested packages:
+  bison-doc
+The following NEW packages will be installed:
+  bison
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 749 kB of archives.
+After this operation, 2,515 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 bison amd64 2:3.8.2+dfsg-1build2 [749 kB]
+Fetched 749 kB in 0s (4,158 kB/s)
+Selecting previously unselected package bison.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 235806 files and directories currently installed.)
+Preparing to unpack .../bison_2%3a3.8.2+dfsg-1build2_amd64.deb ...
+Unpacking bison (2:3.8.2+dfsg-1build2) ...
+Setting up bison (2:3.8.2+dfsg-1build2) ...
+update-alternatives: using /usr/bin/bison.yacc to provide /usr/bin/yacc (yacc) in auto mode
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libfl-dev libfl2
+Suggested packages:
+  flex-doc
+The following NEW packages will be installed:
+  flex libfl-dev libfl2
+0 upgraded, 3 newly installed, 0 to remove and 6 not upgraded.
+Need to get 317 kB of archives.
+After this operation, 1,068 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 flex amd64 2.6.4-8.2build1 [301 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libfl2 amd64 2.6.4-8.2build1 [9,768 B]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libfl-dev amd64 2.6.4-8.2build1 [6,250 B]
+Fetched 317 kB in 0s (2,847 kB/s)
+Selecting previously unselected package flex.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 235922 files and directories currently installed.)
+Preparing to unpack .../flex_2.6.4-8.2build1_amd64.deb ...
+Unpacking flex (2.6.4-8.2build1) ...
+Selecting previously unselected package libfl2:amd64.
+Preparing to unpack .../libfl2_2.6.4-8.2build1_amd64.deb ...
+Unpacking libfl2:amd64 (2.6.4-8.2build1) ...
+Selecting previously unselected package libfl-dev:amd64.
+Preparing to unpack .../libfl-dev_2.6.4-8.2build1_amd64.deb ...
+Unpacking libfl-dev:amd64 (2.6.4-8.2build1) ...
+Setting up flex (2.6.4-8.2build1) ...
+Setting up libfl2:amd64 (2.6.4-8.2build1) ...
+Setting up libfl-dev:amd64 (2.6.4-8.2build1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for install-info (7.1-3build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  pandoc-data
+Suggested packages:
+  texlive-latex-recommended texlive-xetex texlive-luatex pandoc-citeproc
+  texlive-latex-extra context wkhtmltopdf librsvg2-bin groff ghc nodejs php
+  python ruby r-base-core libjs-mathjax libjs-katex
+  citation-style-language-styles
+The following NEW packages will be installed:
+  pandoc pandoc-data
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 26.9 MB of archives.
+After this operation, 200 MB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 pandoc-data all 3.1.3-1 [92.4 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 pandoc amd64 3.1.3+ds-2 [26.9 MB]
+Fetched 26.9 MB in 4s (6,150 kB/s)
+Selecting previously unselected package pandoc-data.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236010 files and directories currently installed.)
+Preparing to unpack .../pandoc-data_3.1.3-1_all.deb ...
+Unpacking pandoc-data (3.1.3-1) ...
+Selecting previously unselected package pandoc.
+Preparing to unpack .../pandoc_3.1.3+ds-2_amd64.deb ...
+Unpacking pandoc (3.1.3+ds-2) ...
+Setting up pandoc-data (3.1.3-1) ...
+Setting up pandoc (3.1.3+ds-2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libxapian30
+Suggested packages:
+  doxygen-latex doxygen-doc doxygen-gui graphviz xapian-tools
+The following NEW packages will be installed:
+  doxygen libxapian30
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 5,917 kB of archives.
+After this operation, 22.8 MB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libxapian30 amd64 1.4.22-1build1 [716 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 doxygen amd64 1.9.8+ds-2build5 [5,201 kB]
+Fetched 5,917 kB in 1s (6,707 kB/s)
+Selecting previously unselected package libxapian30:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236229 files and directories currently installed.)
+Preparing to unpack .../libxapian30_1.4.22-1build1_amd64.deb ...
+Unpacking libxapian30:amd64 (1.4.22-1build1) ...
+Selecting previously unselected package doxygen.
+Preparing to unpack .../doxygen_1.9.8+ds-2build5_amd64.deb ...
+Unpacking doxygen (1.9.8+ds-2build5) ...
+Setting up libxapian30:amd64 (1.4.22-1build1) ...
+Setting up doxygen (1.9.8+ds-2build5) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libtinyxml2-10
+Suggested packages:
+  cppcheck-gui clang-tidy
+The following NEW packages will be installed:
+  cppcheck libtinyxml2-10
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 2,169 kB of archives.
+After this operation, 9,618 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libtinyxml2-10 amd64 10.0.0+dfsg-2 [32.5 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 cppcheck amd64 2.13.0-2ubuntu3 [2,136 kB]
+Fetched 2,169 kB in 0s (4,390 kB/s)
+Selecting previously unselected package libtinyxml2-10:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236253 files and directories currently installed.)
+Preparing to unpack .../libtinyxml2-10_10.0.0+dfsg-2_amd64.deb ...
+Unpacking libtinyxml2-10:amd64 (10.0.0+dfsg-2) ...
+Selecting previously unselected package cppcheck.
+Preparing to unpack .../cppcheck_2.13.0-2ubuntu3_amd64.deb ...
+Unpacking cppcheck (2.13.0-2ubuntu3) ...
+Setting up libtinyxml2-10:amd64 (10.0.0+dfsg-2) ...
+Setting up cppcheck (2.13.0-2ubuntu3) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 14.2 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 imagemagick amd64 8:6.9.12.98+dfsg1-5.2build2 [14.2 kB]
+Fetched 14.2 kB in 0s (391 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236347 files and directories currently installed.)
+Preparing to unpack .../imagemagick_8%3a6.9.12.98+dfsg1-5.2build2_amd64.deb ...
+Unpacking imagemagick (8:6.9.12.98+dfsg1-5.2build2) over (8:6.9.12.98+dfsg1-5.2build2) ...
+Setting up imagemagick (8:6.9.12.98+dfsg1-5.2build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libmpdclient-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 29.3 kB of archives.
+After this operation, 225 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libmpdclient-dev amd64 2.22-1.1build1 [29.3 kB]
+Fetched 29.3 kB in 0s (674 kB/s)
+Selecting previously unselected package libmpdclient-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236347 files and directories currently installed.)
+Preparing to unpack .../libmpdclient-dev_2.22-1.1build1_amd64.deb ...
+Unpacking libmpdclient-dev:amd64 (2.22-1.1build1) ...
+Setting up libmpdclient-dev:amd64 (2.22-1.1build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 99.5 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnl-3-dev amd64 3.7.0-0.3build1.1 [99.5 kB]
+Fetched 99.5 kB in 0s (1,562 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236397 files and directories currently installed.)
+Preparing to unpack .../libnl-3-dev_3.7.0-0.3build1.1_amd64.deb ...
+Unpacking libnl-3-dev:amd64 (3.7.0-0.3build1.1) over (3.7.0-0.3build1.1) ...
+Setting up libnl-3-dev:amd64 (3.7.0-0.3build1.1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 0 B/115 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236397 files and directories currently installed.)
+Preparing to unpack .../libasound2-dev_1.2.11-1build2_amd64.deb ...
+Unpacking libasound2-dev:amd64 (1.2.11-1build2) over (1.2.11-1build2) ...
+Setting up libasound2-dev:amd64 (1.2.11-1build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 19.5 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libstartup-notification0-dev amd64 0.12-6build3 [19.5 kB]
+Fetched 19.5 kB in 0s (218 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236397 files and directories currently installed.)
+Preparing to unpack .../libstartup-notification0-dev_0.12-6build3_amd64.deb ...
+Unpacking libstartup-notification0-dev:amd64 (0.12-6build3) over (0.12-6build3) ...
+Setting up libstartup-notification0-dev:amd64 (0.12-6build3) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libwayland-client++1
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 189 kB of archives.
+After this operation, 1,076 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libwayland-client++1 amd64 1.0.0-5ubuntu2 [189 kB]
+Fetched 189 kB in 0s (1,806 kB/s)
+Selecting previously unselected package libwayland-client++1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236397 files and directories currently installed.)
+Preparing to unpack .../libwayland-client++1_1.0.0-5ubuntu2_amd64.deb ...
+Unpacking libwayland-client++1:amd64 (1.0.0-5ubuntu2) ...
+Setting up libwayland-client++1:amd64 (1.0.0-5ubuntu2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 71.3 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libwayland-dev amd64 1.22.0-2.1build1 [71.3 kB]
+Fetched 71.3 kB in 0s (1,038 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236404 files and directories currently installed.)
+Preparing to unpack .../libwayland-dev_1.22.0-2.1build1_amd64.deb ...
+Unpacking libwayland-dev:amd64 (1.22.0-2.1build1) over (1.22.0-2.1build1) ...
+Setting up libwayland-dev:amd64 (1.22.0-2.1build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libcairo-5c0
+The following NEW packages will be installed:
+  libcairo-5c-dev libcairo-5c0
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 97.3 kB of archives.
+After this operation, 451 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libcairo-5c0 amd64 1.21build1 [48.6 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libcairo-5c-dev amd64 1.21build1 [48.7 kB]
+Fetched 97.3 kB in 0s (1,424 kB/s)
+Selecting previously unselected package libcairo-5c0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236404 files and directories currently installed.)
+Preparing to unpack .../libcairo-5c0_1.21build1_amd64.deb ...
+Unpacking libcairo-5c0:amd64 (1.21build1) ...
+Selecting previously unselected package libcairo-5c-dev.
+Preparing to unpack .../libcairo-5c-dev_1.21build1_amd64.deb ...
+Unpacking libcairo-5c-dev (1.21build1) ...
+Setting up libcairo-5c0:amd64 (1.21build1) ...
+Setting up libcairo-5c-dev (1.21build1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 41.1 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libcairo2-dev amd64 1.18.0-3build1 [41.1 kB]
+Fetched 41.1 kB in 0s (530 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236414 files and directories currently installed.)
+Preparing to unpack .../libcairo2-dev_1.18.0-3build1_amd64.deb ...
+Unpacking libcairo2-dev:amd64 (1.18.0-3build1) over (1.18.0-3build1) ...
+Setting up libcairo2-dev:amd64 (1.18.0-3build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 147 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libpango1.0-dev amd64 1.52.1+ds-1build1 [147 kB]
+Fetched 147 kB in 0s (1,747 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236414 files and directories currently installed.)
+Preparing to unpack .../libpango1.0-dev_1.52.1+ds-1build1_amd64.deb ...
+Unpacking libpango1.0-dev:amd64 (1.52.1+ds-1build1) over (1.52.1+ds-1build1) ...
+Setting up libpango1.0-dev:amd64 (1.52.1+ds-1build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 48.0 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgdk-pixbuf-2.0-dev amd64 2.42.10+dfsg-3ubuntu3.1 [48.0 kB]
+Fetched 48.0 kB in 0s (1,081 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236414 files and directories currently installed.)
+Preparing to unpack .../libgdk-pixbuf-2.0-dev_2.42.10+dfsg-3ubuntu3.1_amd64.deb ...
+Unpacking libgdk-pixbuf-2.0-dev:amd64 (2.42.10+dfsg-3ubuntu3.1) over (2.42.10+dfsg-3ubuntu3.1) ...
+Setting up libgdk-pixbuf-2.0-dev:amd64 (2.42.10+dfsg-3ubuntu3.1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libxcb-keysyms1-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 7,030 B of archives.
+After this operation, 46.1 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-keysyms1-dev amd64 0.4.0-1build4 [7,030 B]
+Fetched 7,030 B in 0s (203 kB/s)
+Selecting previously unselected package libxcb-keysyms1-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236414 files and directories currently installed.)
+Preparing to unpack .../libxcb-keysyms1-dev_0.4.0-1build4_amd64.deb ...
+Unpacking libxcb-keysyms1-dev:amd64 (0.4.0-1build4) ...
+Setting up libxcb-keysyms1-dev:amd64 (0.4.0-1build4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 26.4 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libwayland-client0 amd64 1.22.0-2.1build1 [26.4 kB]
+Fetched 26.4 kB in 0s (680 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libwayland-client0_1.22.0-2.1build1_amd64.deb ...
+Unpacking libwayland-client0:amd64 (1.22.0-2.1build1) over (1.22.0-2.1build1) ...
+Setting up libwayland-client0:amd64 (1.22.0-2.1build1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 22.7 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-ewmh-dev amd64 0.4.1-1.1build3 [22.7 kB]
+Fetched 22.7 kB in 0s (482 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxcb-ewmh-dev_0.4.1-1.1build3_amd64.deb ...
+Unpacking libxcb-ewmh-dev:amd64 (0.4.1-1.1build3) over (0.4.1-1.1build3) ...
+Setting up libxcb-ewmh-dev:amd64 (0.4.1-1.1build3) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 12.7 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libxcb-cursor-dev amd64 0.1.4-1build1 [12.7 kB]
+Fetched 12.7 kB in 0s (387 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxcb-cursor-dev_0.1.4-1build1_amd64.deb ...
+Unpacking libxcb-cursor-dev:amd64 (0.1.4-1build1) over (0.1.4-1build1) ...
+Setting up libxcb-cursor-dev:amd64 (0.1.4-1build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 11.3 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-icccm4-dev amd64 0.4.1-1.1build3 [11.3 kB]
+Fetched 11.3 kB in 0s (417 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxcb-icccm4-dev_0.4.1-1.1build3_amd64.deb ...
+Unpacking libxcb-icccm4-dev:amd64 (0.4.1-1.1build3) over (0.4.1-1.1build3) ...
+Setting up libxcb-icccm4-dev:amd64 (0.4.1-1.1build3) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 21.7 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-randr0-dev amd64 1.15-1ubuntu2 [21.7 kB]
+Fetched 21.7 kB in 0s (268 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxcb-randr0-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-randr0-dev:amd64 (1.15-1ubuntu2) over (1.15-1ubuntu2) ...
+Setting up libxcb-randr0-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 67.4 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-render-util0-dev amd64 0.3.9-1build4 [67.4 kB]
+Fetched 67.4 kB in 0s (1,146 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxcb-render-util0-dev_0.3.9-1build4_amd64.deb ...
+Unpacking libxcb-render-util0-dev:amd64 (0.3.9-1build4) over (0.3.9-1build4) ...
+Setting up libxcb-render-util0-dev:amd64 (0.3.9-1build4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 10.8 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-util-dev amd64 0.4.0-1build3 [10.8 kB]
+Fetched 10.8 kB in 0s (266 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxcb-util-dev_0.4.0-1build3_amd64.deb ...
+Unpacking libxcb-util-dev:amd64 (0.4.0-1build3) over (0.4.0-1build3) ...
+Setting up libxcb-util-dev:amd64 (0.4.0-1build3) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 42.5 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-xkb-dev amd64 1.15-1ubuntu2 [42.5 kB]
+Fetched 42.5 kB in 0s (774 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxcb-xkb-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-xkb-dev:amd64 (1.15-1ubuntu2) over (1.15-1ubuntu2) ...
+Setting up libxcb-xkb-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 6,034 B of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-xinerama0-dev amd64 1.15-1ubuntu2 [6,034 B]
+Fetched 6,034 B in 0s (249 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxcb-xinerama0-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-xinerama0-dev:amd64 (1.15-1ubuntu2) over (1.15-1ubuntu2) ...
+Setting up libxcb-xinerama0-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 56.3 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxkbcommon-dev amd64 1.6.0-1build1 [56.3 kB]
+Fetched 56.3 kB in 0s (1,085 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxkbcommon-dev_1.6.0-1build1_amd64.deb ...
+Unpacking libxkbcommon-dev:amd64 (1.6.0-1build1) over (1.6.0-1build1) ...
+Setting up libxkbcommon-dev:amd64 (1.6.0-1build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 5,586 B of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxkbcommon-x11-dev amd64 1.6.0-1build1 [5,586 B]
+Fetched 5,586 B in 0s (202 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../libxkbcommon-x11-dev_1.6.0-1build1_amd64.deb ...
+Unpacking libxkbcommon-x11-dev:amd64 (1.6.0-1build1) over (1.6.0-1build1) ...
+Setting up libxkbcommon-x11-dev:amd64 (1.6.0-1build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  fonts-lato libruby libruby3.2 rake ruby ruby-diff-lcs ruby-net-telnet
+  ruby-rubygems ruby-sdbm ruby-webrick ruby-xmlrpc ruby3.2
+  rubygems-integration
+Suggested packages:
+  ohcount-doc ri ruby-dev bundler
+The following NEW packages will be installed:
+  fonts-lato libruby libruby3.2 ohcount rake ruby ruby-diff-lcs
+  ruby-net-telnet ruby-rubygems ruby-sdbm ruby-webrick ruby-xmlrpc ruby3.2
+  rubygems-integration
+0 upgraded, 14 newly installed, 0 to remove and 6 not upgraded.
+Need to get 8,999 kB of archives.
+After this operation, 41.9 MB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 fonts-lato all 2.015-1 [2,781 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 rubygems-integration all 1.18 [5,336 B]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 ruby3.2 amd64 3.2.3-1ubuntu0.24.04.5 [50.7 kB]
+Get:4 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 ruby-rubygems all 3.4.20-1 [238 kB]
+Get:5 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 ruby amd64 1:3.2~ubuntu1 [3,466 B]
+Get:6 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 rake all 13.0.6-3 [61.6 kB]
+Get:7 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 ruby-net-telnet all 0.2.0-1 [13.3 kB]
+Get:8 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 ruby-webrick all 1.8.1-1ubuntu0.1 [52.6 kB]
+Get:9 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 ruby-xmlrpc all 0.3.2-2 [24.8 kB]
+Get:10 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 ruby-sdbm amd64 1.0.0-5build4 [16.2 kB]
+Get:11 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libruby3.2 amd64 3.2.3-1ubuntu0.24.04.5 [5,341 kB]
+Get:12 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libruby amd64 1:3.2~ubuntu1 [4,694 B]
+Get:13 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 ruby-diff-lcs all 1.5.1-1 [22.8 kB]
+Get:14 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 ohcount amd64 4.0.0-4build2 [383 kB]
+Fetched 8,999 kB in 2s (5,734 kB/s)
+Selecting previously unselected package fonts-lato.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 236423 files and directories currently installed.)
+Preparing to unpack .../00-fonts-lato_2.015-1_all.deb ...
+Unpacking fonts-lato (2.015-1) ...
+Selecting previously unselected package rubygems-integration.
+Preparing to unpack .../01-rubygems-integration_1.18_all.deb ...
+Unpacking rubygems-integration (1.18) ...
+Selecting previously unselected package ruby3.2.
+Preparing to unpack .../02-ruby3.2_3.2.3-1ubuntu0.24.04.5_amd64.deb ...
+Unpacking ruby3.2 (3.2.3-1ubuntu0.24.04.5) ...
+Selecting previously unselected package ruby-rubygems.
+Preparing to unpack .../03-ruby-rubygems_3.4.20-1_all.deb ...
+Unpacking ruby-rubygems (3.4.20-1) ...
+Selecting previously unselected package ruby.
+Preparing to unpack .../04-ruby_1%3a3.2~ubuntu1_amd64.deb ...
+Unpacking ruby (1:3.2~ubuntu1) ...
+Selecting previously unselected package rake.
+Preparing to unpack .../05-rake_13.0.6-3_all.deb ...
+Unpacking rake (13.0.6-3) ...
+Selecting previously unselected package ruby-net-telnet.
+Preparing to unpack .../06-ruby-net-telnet_0.2.0-1_all.deb ...
+Unpacking ruby-net-telnet (0.2.0-1) ...
+Selecting previously unselected package ruby-webrick.
+Preparing to unpack .../07-ruby-webrick_1.8.1-1ubuntu0.1_all.deb ...
+Unpacking ruby-webrick (1.8.1-1ubuntu0.1) ...
+Selecting previously unselected package ruby-xmlrpc.
+Preparing to unpack .../08-ruby-xmlrpc_0.3.2-2_all.deb ...
+Unpacking ruby-xmlrpc (0.3.2-2) ...
+Selecting previously unselected package ruby-sdbm:amd64.
+Preparing to unpack .../09-ruby-sdbm_1.0.0-5build4_amd64.deb ...
+Unpacking ruby-sdbm:amd64 (1.0.0-5build4) ...
+Selecting previously unselected package libruby3.2:amd64.
+Preparing to unpack .../10-libruby3.2_3.2.3-1ubuntu0.24.04.5_amd64.deb ...
+Unpacking libruby3.2:amd64 (3.2.3-1ubuntu0.24.04.5) ...
+Selecting previously unselected package libruby:amd64.
+Preparing to unpack .../11-libruby_1%3a3.2~ubuntu1_amd64.deb ...
+Unpacking libruby:amd64 (1:3.2~ubuntu1) ...
+Selecting previously unselected package ruby-diff-lcs.
+Preparing to unpack .../12-ruby-diff-lcs_1.5.1-1_all.deb ...
+Unpacking ruby-diff-lcs (1.5.1-1) ...
+Selecting previously unselected package ohcount.
+Preparing to unpack .../13-ohcount_4.0.0-4build2_amd64.deb ...
+Unpacking ohcount (4.0.0-4build2) ...
+Setting up fonts-lato (2.015-1) ...
+Setting up rubygems-integration (1.18) ...
+Setting up ruby-net-telnet (0.2.0-1) ...
+Setting up ruby-webrick (1.8.1-1ubuntu0.1) ...
+Setting up ruby-xmlrpc (0.3.2-2) ...
+Setting up rake (13.0.6-3) ...
+Setting up libruby:amd64 (1:3.2~ubuntu1) ...
+Setting up ruby-sdbm:amd64 (1.0.0-5build4) ...
+Setting up libruby3.2:amd64 (3.2.3-1ubuntu0.24.04.5) ...
+Setting up ruby3.2 (3.2.3-1ubuntu0.24.04.5) ...
+Setting up ruby (1:3.2~ubuntu1) ...
+Setting up ruby-diff-lcs (1.5.1-1) ...
+Setting up ohcount (4.0.0-4build2) ...
+Setting up ruby-rubygems (3.4.20-1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for fontconfig (2.15.0-1.1ubuntu2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 1 reinstalled, 0 to remove and 6 not upgraded.
+Need to get 334 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 wget amd64 1.21.4-1ubuntu4.1 [334 kB]
+Fetched 334 kB in 0s (2,841 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 239548 files and directories currently installed.)
+Preparing to unpack .../wget_1.21.4-1ubuntu4.1_amd64.deb ...
+Unpacking wget (1.21.4-1ubuntu4.1) over (1.21.4-1ubuntu4.1) ...
+Setting up wget (1.21.4-1ubuntu4.1) ...
+Processing triggers for install-info (7.1-3build2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+[32m[OK](B[m [33mrofi-wayland 1.7.8+wayland1(B[m downloaded successfully.

@@ -1,0 +1,31 @@
+[?25l[34m[INFO](B[m Installing [33mlibsdbus-c++-dev(B[m ...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...[34m[INFO](B[m Installing [33mlibsdbus-c++-dev(B[m ●○○○○○○○○○
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libsdbus-c++1
+Suggested packages:
+  libsdbus-c++-bin
+The following NEW packages will be installed:
+  libsdbus-c++-dev libsdbus-c++1
+[34m[INFO](B[m Installing [33mlibsdbus-c++-dev(B[m ○●○○○○○○○○0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 134 kB of archives.
+After this operation, 541 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libsdbus-c++1 amd64 1.4.0-2 [96.2 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libsdbus-c++-dev amd64 1.4.0-2 [38.2 kB]
+[34m[INFO](B[m Installing [33mlibsdbus-c++-dev(B[m ○○●○○○○○○○Fetched 134 kB in 0s (1,418 kB/s)
+Selecting previously unselected package libsdbus-c++1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 239558 files and directories currently installed.)
+Preparing to unpack .../libsdbus-c++1_1.4.0-2_amd64.deb ...
+Unpacking libsdbus-c++1:amd64 (1.4.0-2) ...
+Selecting previously unselected package libsdbus-c++-dev:amd64.
+Preparing to unpack .../libsdbus-c++-dev_1.4.0-2_amd64.deb ...
+Unpacking libsdbus-c++-dev:amd64 (1.4.0-2) ...
+[34m[INFO](B[m Installing [33mlibsdbus-c++-dev(B[m ○○○●○○○○○○Setting up libsdbus-c++1:amd64 (1.4.0-2) ...
+Setting up libsdbus-c++-dev:amd64 (1.4.0-2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+[34m[INFO](B[m Installing [33mlibsdbus-c++-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibsdbus-c++-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibsdbus-c++-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibsdbus-c++-dev(B[m has been successfully re-installed!

@@ -1,0 +1,2421 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Suggested packages:
+  googletest libgtest-dev
+The following NEW packages will be installed:
+  cmake-extras
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 57.0 kB of archives.
+After this operation, 314 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 cmake-extras all 1.7-2 [57.0 kB]
+Fetched 57.0 kB in 0s (289 kB/s)
+Selecting previously unselected package cmake-extras.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227524 files and directories currently installed.)
+Preparing to unpack .../cmake-extras_1.7-2_all.deb ...
+Unpacking cmake-extras (1.7-2) ...
+Setting up cmake-extras (1.7-2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  spirv-tools
+The following NEW packages will be installed:
+  glslang-tools spirv-tools
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 6,661 kB of archives.
+After this operation, 41.8 MB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 spirv-tools amd64 2023.6~rc1-2 [4,311 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 glslang-tools amd64 14.0.0-2 [2,349 kB]
+Fetched 6,661 kB in 1s (4,768 kB/s)
+Selecting previously unselected package spirv-tools.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227630 files and directories currently installed.)
+Preparing to unpack .../spirv-tools_2023.6~rc1-2_amd64.deb ...
+Unpacking spirv-tools (2023.6~rc1-2) ...
+Selecting previously unselected package glslang-tools.
+Preparing to unpack .../glslang-tools_14.0.0-2_amd64.deb ...
+Unpacking glslang-tools (14.0.0-2) ...
+Setting up spirv-tools (2023.6~rc1-2) ...
+Setting up glslang-tools (14.0.0-2) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libdisplay-info1
+The following NEW packages will be installed:
+  libdisplay-info-dev libdisplay-info1
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 101 kB of archives.
+After this operation, 352 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libdisplay-info1 amd64 0.1.1-2build1 [77.3 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libdisplay-info-dev amd64 0.1.1-2build1 [23.8 kB]
+Fetched 101 kB in 0s (659 kB/s)
+Selecting previously unselected package libdisplay-info1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227694 files and directories currently installed.)
+Preparing to unpack .../libdisplay-info1_0.1.1-2build1_amd64.deb ...
+Unpacking libdisplay-info1:amd64 (0.1.1-2build1) ...
+Selecting previously unselected package libdisplay-info-dev:amd64.
+Preparing to unpack .../libdisplay-info-dev_0.1.1-2build1_amd64.deb ...
+Unpacking libdisplay-info-dev:amd64 (0.1.1-2build1) ...
+Setting up libdisplay-info1:amd64 (0.1.1-2build1) ...
+Setting up libdisplay-info-dev:amd64 (0.1.1-2build1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  libgbm-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 9,834 B of archives.
+After this operation, 64.5 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgbm-dev amd64 24.2.8-1ubuntu1~24.04.1 [9,834 B]
+Fetched 9,834 B in 0s (293 kB/s)
+Selecting previously unselected package libgbm-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227712 files and directories currently installed.)
+Preparing to unpack .../libgbm-dev_24.2.8-1ubuntu1~24.04.1_amd64.deb ...
+Unpacking libgbm-dev:amd64 (24.2.8-1ubuntu1~24.04.1) ...
+Setting up libgbm-dev:amd64 (24.2.8-1ubuntu1~24.04.1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  gir1.2-girepository-2.0-dev gobject-introspection gobject-introspection-bin
+  libgirepository-1.0-dev python3-mako python3-markdown
+Suggested packages:
+  libgirepository1.0-doc python-mako-doc python3-beaker python-markdown-doc
+The following NEW packages will be installed:
+  gir1.2-girepository-2.0-dev gobject-introspection gobject-introspection-bin
+  libgirepository-1.0-dev libgirepository1.0-dev python3-mako python3-markdown
+0 upgraded, 7 newly installed, 0 to remove and 6 not upgraded.
+Need to get 581 kB of archives.
+After this operation, 3,277 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 gir1.2-girepository-2.0-dev amd64 1.80.1-1 [41.5 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 python3-mako all 1.3.2-1 [63.3 kB]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 python3-markdown all 3.5.2-1 [72.0 kB]
+Get:4 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 gobject-introspection-bin amd64 1.80.1-1 [254 kB]
+Get:5 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 gobject-introspection amd64 1.80.1-1 [105 kB]
+Get:6 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libgirepository-1.0-dev amd64 1.80.1-1 [28.5 kB]
+Get:7 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libgirepository1.0-dev amd64 1.80.1-1 [17.0 kB]
+Fetched 581 kB in 0s (3,762 kB/s)
+Selecting previously unselected package gir1.2-girepository-2.0-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227721 files and directories currently installed.)
+Preparing to unpack .../0-gir1.2-girepository-2.0-dev_1.80.1-1_amd64.deb ...
+Unpacking gir1.2-girepository-2.0-dev:amd64 (1.80.1-1) ...
+Selecting previously unselected package python3-mako.
+Preparing to unpack .../1-python3-mako_1.3.2-1_all.deb ...
+Unpacking python3-mako (1.3.2-1) ...
+Selecting previously unselected package python3-markdown.
+Preparing to unpack .../2-python3-markdown_3.5.2-1_all.deb ...
+Unpacking python3-markdown (3.5.2-1) ...
+Selecting previously unselected package gobject-introspection-bin.
+Preparing to unpack .../3-gobject-introspection-bin_1.80.1-1_amd64.deb ...
+Unpacking gobject-introspection-bin (1.80.1-1) ...
+Selecting previously unselected package gobject-introspection:amd64.
+Preparing to unpack .../4-gobject-introspection_1.80.1-1_amd64.deb ...
+Unpacking gobject-introspection:amd64 (1.80.1-1) ...
+Selecting previously unselected package libgirepository-1.0-dev:amd64.
+Preparing to unpack .../5-libgirepository-1.0-dev_1.80.1-1_amd64.deb ...
+Unpacking libgirepository-1.0-dev:amd64 (1.80.1-1) ...
+Selecting previously unselected package libgirepository1.0-dev.
+Preparing to unpack .../6-libgirepository1.0-dev_1.80.1-1_amd64.deb ...
+Unpacking libgirepository1.0-dev (1.80.1-1) ...
+Setting up gir1.2-girepository-2.0-dev:amd64 (1.80.1-1) ...
+Setting up python3-markdown (3.5.2-1) ...
+Setting up python3-mako (1.3.2-1) ...
+Setting up gobject-introspection-bin (1.80.1-1) ...
+Setting up gobject-introspection:amd64 (1.80.1-1) ...
+Setting up libgirepository-1.0-dev:amd64 (1.80.1-1) ...
+Setting up libgirepository1.0-dev (1.80.1-1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Suggested packages:
+  libgraphene-doc
+The following NEW packages will be installed:
+  libgraphene-1.0-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 58.6 kB of archives.
+After this operation, 904 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libgraphene-1.0-dev amd64 1.10.8-3build2 [58.6 kB]
+Fetched 58.6 kB in 0s (1,304 kB/s)
+Selecting previously unselected package libgraphene-1.0-dev.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 228039 files and directories currently installed.)
+Preparing to unpack .../libgraphene-1.0-dev_1.10.8-3build2_amd64.deb ...
+Unpacking libgraphene-1.0-dev (1.10.8-3build2) ...
+Setting up libgraphene-1.0-dev (1.10.8-3build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libgulkan-0.15-0t64
+The following NEW packages will be installed:
+  libgulkan-0.15-0t64 libgulkan-dev
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 50.7 kB of archives.
+After this operation, 205 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libgulkan-0.15-0t64 amd64 0.15.1-2.2build1 [37.2 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libgulkan-dev amd64 0.15.1-2.2build1 [13.6 kB]
+Fetched 50.7 kB in 0s (980 kB/s)
+Selecting previously unselected package libgulkan-0.15-0t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 228075 files and directories currently installed.)
+Preparing to unpack .../libgulkan-0.15-0t64_0.15.1-2.2build1_amd64.deb ...
+Unpacking libgulkan-0.15-0t64:amd64 (0.15.1-2.2build1) ...
+Selecting previously unselected package libgulkan-dev:amd64.
+Preparing to unpack .../libgulkan-dev_0.15.1-2.2build1_amd64.deb ...
+Unpacking libgulkan-dev:amd64 (0.15.1-2.2build1) ...
+Setting up libgulkan-0.15-0t64:amd64 (0.15.1-2.2build1) ...
+Setting up libgulkan-dev:amd64 (0.15.1-2.2build1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libinireader0
+The following NEW packages will be installed:
+  libinih-dev libinireader0
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 31.5 kB of archives.
+After this operation, 120 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libinireader0 amd64 55-1ubuntu2 [10.2 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libinih-dev amd64 55-1ubuntu2 [21.3 kB]
+Fetched 31.5 kB in 0s (735 kB/s)
+Selecting previously unselected package libinireader0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 228105 files and directories currently installed.)
+Preparing to unpack .../libinireader0_55-1ubuntu2_amd64.deb ...
+Unpacking libinireader0:amd64 (55-1ubuntu2) ...
+Selecting previously unselected package libinih-dev:amd64.
+Preparing to unpack .../libinih-dev_55-1ubuntu2_amd64.deb ...
+Unpacking libinih-dev:amd64 (55-1ubuntu2) ...
+Setting up libinireader0:amd64 (55-1ubuntu2) ...
+Setting up libinih-dev:amd64 (55-1ubuntu2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libevdev-dev libgudev-1.0-dev libmtdev-dev libudev-dev libwacom-dev
+Suggested packages:
+  libevdev-doc
+The following NEW packages will be installed:
+  libevdev-dev libgudev-1.0-dev libinput-dev libmtdev-dev libudev-dev
+  libwacom-dev
+0 upgraded, 6 newly installed, 0 to remove and 6 not upgraded.
+Need to get 148 kB of archives.
+After this operation, 1,176 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libudev-dev amd64 255.4-1ubuntu8.6 [22.0 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libgudev-1.0-dev amd64 1:238-5ubuntu1 [27.2 kB]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libmtdev-dev amd64 1.1.6-1.1build1 [5,126 B]
+Get:4 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libevdev-dev amd64 1.13.1+dfsg-1build1 [53.7 kB]
+Get:5 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libwacom-dev amd64 2.10.0-2 [7,590 B]
+Get:6 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libinput-dev amd64 1.25.0-1ubuntu3 [32.3 kB]
+Fetched 148 kB in 0s (2,337 kB/s)
+Selecting previously unselected package libudev-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 228131 files and directories currently installed.)
+Preparing to unpack .../0-libudev-dev_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking libudev-dev:amd64 (255.4-1ubuntu8.6) ...
+Selecting previously unselected package libgudev-1.0-dev:amd64.
+Preparing to unpack .../1-libgudev-1.0-dev_1%3a238-5ubuntu1_amd64.deb ...
+Unpacking libgudev-1.0-dev:amd64 (1:238-5ubuntu1) ...
+Selecting previously unselected package libmtdev-dev:amd64.
+Preparing to unpack .../2-libmtdev-dev_1.1.6-1.1build1_amd64.deb ...
+Unpacking libmtdev-dev:amd64 (1.1.6-1.1build1) ...
+Selecting previously unselected package libevdev-dev:amd64.
+Preparing to unpack .../3-libevdev-dev_1.13.1+dfsg-1build1_amd64.deb ...
+Unpacking libevdev-dev:amd64 (1.13.1+dfsg-1build1) ...
+Selecting previously unselected package libwacom-dev:amd64.
+Preparing to unpack .../4-libwacom-dev_2.10.0-2_amd64.deb ...
+Unpacking libwacom-dev:amd64 (2.10.0-2) ...
+Selecting previously unselected package libinput-dev:amd64.
+Preparing to unpack .../5-libinput-dev_1.25.0-1ubuntu3_amd64.deb ...
+Unpacking libinput-dev:amd64 (1.25.0-1ubuntu3) ...
+Setting up libevdev-dev:amd64 (1.13.1+dfsg-1build1) ...
+Setting up libmtdev-dev:amd64 (1.1.6-1.1build1) ...
+Setting up libudev-dev:amd64 (255.4-1ubuntu8.6) ...
+Setting up libgudev-1.0-dev:amd64 (1:238-5ubuntu1) ...
+Setting up libwacom-dev:amd64 (2.10.0-2) ...
+Setting up libinput-dev:amd64 (1.25.0-1ubuntu3) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libdeflate-dev libegl1-mesa-dev libepoxy-dev
+  libexif-dev libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev
+  libfreexl1 libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjbig-dev libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblerc-dev liblz4-dev libminizip1t64 libmysqlclient21
+  libnetcdf19t64 libodbc2 libodbcinst2 libogdi4.1 libopencv-calib3d406t64
+  libopencv-contrib406t64 libopencv-core-dev libopencv-core406t64
+  libopencv-dnn-dev libopencv-dnn406t64 libopencv-features2d406t64
+  libopencv-flann-dev libopencv-flann406t64 libopencv-highgui406t64
+  libopencv-imgcodecs-dev libopencv-imgcodecs406t64 libopencv-imgproc-dev
+  libopencv-imgproc406t64 libopencv-java libopencv-ml-dev libopencv-ml406t64
+  libopencv-objdetect406t64 libopencv-photo-dev libopencv-photo406t64
+  libopencv-shape-dev libopencv-shape406t64 libopencv-stitching406t64
+  libopencv-superres-dev libopencv-superres406t64 libopencv-video-dev
+  libopencv-video406t64 libopencv-videoio-dev libopencv-videoio406t64
+  libopencv-videostab406t64 libopencv-viz-dev libopencv-viz406t64
+  libopencv406-jni libopenexr-dev libpango1.0-dev libpixman-1-dev libpq5
+  libproj25 libqhull-r8.0 libraw1394-dev libraw1394-tools librttopo1
+  libsharpyuv-dev libsm-dev libsocket++1 libspatialite8t64 libssl-dev
+  libsuperlu6 libswresample-dev libswscale-dev libsz2 libtesseract5
+  libthai-dev libtiffxx6 libtk8.6 liburiparser1 libvtk9.1t64 libwayland-bin
+  libwayland-dev libwebp-dev libwebpdecoder3 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev libzstd-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libjpeg62
+The following packages will be REMOVED:
+  libflann-dev libgdk-pixbuf-2.0-dev libgtk-3-dev libgulkan-dev
+  libhdf5-mpi-dev libhdf5-openmpi-dev libjpeg-dev libjpeg-turbo8-dev
+  libjpeg8-dev libopencv-calib3d-dev libopencv-contrib-dev libopencv-dev
+  libopencv-features2d-dev libopencv-highgui-dev libopencv-objdetect-dev
+  libopencv-stitching-dev libopencv-videostab-dev libtiff-dev
+The following NEW packages will be installed:
+  libjpeg62 libjpeg62-dev
+0 upgraded, 2 newly installed, 18 to remove and 6 not upgraded.
+Need to get 264 kB of archives.
+After this operation, 87.0 MB disk space will be freed.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libjpeg62 amd64 1:6b2-3.1 [83.1 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libjpeg62-dev amd64 1:6b2-3.1 [181 kB]
+Fetched 264 kB in 0s (2,371 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 228276 files and directories currently installed.)
+Removing libflann-dev:amd64 (1.9.2+dfsg-2build1) ...
+Removing libgtk-3-dev:amd64 (3.24.41-4ubuntu1.3) ...
+Removing libgulkan-dev:amd64 (0.15.1-2.2build1) ...
+Removing libgdk-pixbuf-2.0-dev:amd64 (2.42.10+dfsg-3ubuntu3.1) ...
+Removing libhdf5-mpi-dev (1.10.10+repack-3.1ubuntu4) ...
+Removing libhdf5-openmpi-dev (1.10.10+repack-3.1ubuntu4) ...
+update-alternatives: warning: forcing reinstallation of alternative /usr/bin/mpicc.openmpi because link group mpi is broken
+update-alternatives: warning: alternative /usr/lib/x86_64-linux-gnu/pkgconfig/hdf5-mpi.pc (part of link group hdf5.pc) doesn't exist; removing from list of alternatives
+update-alternatives: warning: /etc/alternatives/hdf5.pc is dangling; it will be updated with best choice
+Removing libopencv-dev (4.6.0+dfsg-13.1ubuntu1) ...
+Removing libopencv-contrib-dev:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+Removing libopencv-stitching-dev:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+Removing libopencv-objdetect-dev:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+Removing libjpeg-dev:amd64 (8c-2ubuntu11) ...
+Removing libjpeg8-dev:amd64 (8c-2ubuntu11) ...
+Removing libopencv-videostab-dev:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+Removing libopencv-calib3d-dev:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+Removing libopencv-features2d-dev:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+Removing libopencv-highgui-dev:amd64 (4.6.0+dfsg-13.1ubuntu1) ...
+Removing libtiff-dev:amd64 (4.5.1+git230720-4ubuntu2.2) ...
+Removing libjpeg-turbo8-dev:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg62:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227062 files and directories currently installed.)
+Preparing to unpack .../libjpeg62_1%3a6b2-3.1_amd64.deb ...
+Unpacking libjpeg62:amd64 (1:6b2-3.1) ...
+Selecting previously unselected package libjpeg62-dev:amd64.
+Preparing to unpack .../libjpeg62-dev_1%3a6b2-3.1_amd64.deb ...
+Unpacking libjpeg62-dev:amd64 (1:6b2-3.1) ...
+Setting up libjpeg62:amd64 (1:6b2-3.1) ...
+Setting up libjpeg62-dev:amd64 (1:6b2-3.1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libdeflate-dev libegl1-mesa-dev libepoxy-dev
+  libexif-dev libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev
+  libfreexl1 libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjbig-dev libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblerc-dev liblz4-dev libminizip1t64 libmysqlclient21
+  libnetcdf19t64 libodbc2 libodbcinst2 libogdi4.1 libopencv-calib3d406t64
+  libopencv-contrib406t64 libopencv-core-dev libopencv-core406t64
+  libopencv-dnn-dev libopencv-dnn406t64 libopencv-features2d406t64
+  libopencv-flann-dev libopencv-flann406t64 libopencv-highgui406t64
+  libopencv-imgcodecs-dev libopencv-imgcodecs406t64 libopencv-imgproc-dev
+  libopencv-imgproc406t64 libopencv-java libopencv-ml-dev libopencv-ml406t64
+  libopencv-objdetect406t64 libopencv-photo-dev libopencv-photo406t64
+  libopencv-shape-dev libopencv-shape406t64 libopencv-stitching406t64
+  libopencv-superres-dev libopencv-superres406t64 libopencv-video-dev
+  libopencv-video406t64 libopencv-videoio-dev libopencv-videoio406t64
+  libopencv-videostab406t64 libopencv-viz-dev libopencv-viz406t64
+  libopencv406-jni libopenexr-dev libpango1.0-dev libpixman-1-dev libpq5
+  libproj25 libqhull-r8.0 libraw1394-dev libraw1394-tools librttopo1
+  libsharpyuv-dev libsm-dev libsocket++1 libspatialite8t64 libssl-dev
+  libsuperlu6 libswresample-dev libswscale-dev libsz2 libtesseract5
+  libthai-dev libtiffxx6 libtk8.6 liburiparser1 libvtk9.1t64 libwayland-bin
+  libwayland-dev libwebp-dev libwebpdecoder3 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev libzstd-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libliftoff0
+The following NEW packages will be installed:
+  libliftoff-dev libliftoff0
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 18.9 kB of archives.
+After this operation, 73.7 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libliftoff0 amd64 0.4.1-1 [14.8 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libliftoff-dev amd64 0.4.1-1 [4,126 B]
+Fetched 18.9 kB in 0s (472 kB/s)
+Selecting previously unselected package libliftoff0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227086 files and directories currently installed.)
+Preparing to unpack .../libliftoff0_0.4.1-1_amd64.deb ...
+Unpacking libliftoff0:amd64 (0.4.1-1) ...
+Selecting previously unselected package libliftoff-dev:amd64.
+Preparing to unpack .../libliftoff-dev_0.4.1-1_amd64.deb ...
+Unpacking libliftoff-dev:amd64 (0.4.1-1) ...
+Setting up libliftoff0:amd64 (0.4.1-1) ...
+Setting up libliftoff-dev:amd64 (0.4.1-1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libdeflate-dev libegl1-mesa-dev libepoxy-dev
+  libexif-dev libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev
+  libfreexl1 libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjbig-dev libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblerc-dev liblz4-dev libminizip1t64 libmysqlclient21
+  libnetcdf19t64 libodbc2 libodbcinst2 libogdi4.1 libopencv-calib3d406t64
+  libopencv-contrib406t64 libopencv-core-dev libopencv-core406t64
+  libopencv-dnn-dev libopencv-dnn406t64 libopencv-features2d406t64
+  libopencv-flann-dev libopencv-flann406t64 libopencv-highgui406t64
+  libopencv-imgcodecs-dev libopencv-imgcodecs406t64 libopencv-imgproc-dev
+  libopencv-imgproc406t64 libopencv-java libopencv-ml-dev libopencv-ml406t64
+  libopencv-objdetect406t64 libopencv-photo-dev libopencv-photo406t64
+  libopencv-shape-dev libopencv-shape406t64 libopencv-stitching406t64
+  libopencv-superres-dev libopencv-superres406t64 libopencv-video-dev
+  libopencv-video406t64 libopencv-videoio-dev libopencv-videoio406t64
+  libopencv-videostab406t64 libopencv-viz-dev libopencv-viz406t64
+  libopencv406-jni libopenexr-dev libpango1.0-dev libpixman-1-dev libpq5
+  libproj25 libqhull-r8.0 libraw1394-dev libraw1394-tools librttopo1
+  libsharpyuv-dev libsm-dev libsocket++1 libspatialite8t64 libssl-dev
+  libsuperlu6 libswresample-dev libswscale-dev libsz2 libtesseract5
+  libthai-dev libtiffxx6 libtk8.6 liburiparser1 libvtk9.1t64 libwayland-bin
+  libwayland-dev libwebp-dev libwebpdecoder3 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev libzstd-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libpam0g-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 404 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpam0g-dev amd64 1.5.3-5ubuntu5.1 [115 kB]
+Fetched 115 kB in 0s (983 kB/s)
+Selecting previously unselected package libpam0g-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227097 files and directories currently installed.)
+Preparing to unpack .../libpam0g-dev_1.5.3-5ubuntu5.1_amd64.deb ...
+Unpacking libpam0g-dev:amd64 (1.5.3-5ubuntu5.1) ...
+Setting up libpam0g-dev:amd64 (1.5.3-5ubuntu5.1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libdeflate-dev libegl1-mesa-dev libepoxy-dev
+  libexif-dev libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev
+  libfreexl1 libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjbig-dev libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblerc-dev liblz4-dev libminizip1t64 libmysqlclient21
+  libnetcdf19t64 libodbc2 libodbcinst2 libogdi4.1 libopencv-calib3d406t64
+  libopencv-contrib406t64 libopencv-core-dev libopencv-core406t64
+  libopencv-dnn-dev libopencv-dnn406t64 libopencv-features2d406t64
+  libopencv-flann-dev libopencv-flann406t64 libopencv-highgui406t64
+  libopencv-imgcodecs-dev libopencv-imgcodecs406t64 libopencv-imgproc-dev
+  libopencv-imgproc406t64 libopencv-java libopencv-ml-dev libopencv-ml406t64
+  libopencv-objdetect406t64 libopencv-photo-dev libopencv-photo406t64
+  libopencv-shape-dev libopencv-shape406t64 libopencv-stitching406t64
+  libopencv-superres-dev libopencv-superres406t64 libopencv-video-dev
+  libopencv-video406t64 libopencv-videoio-dev libopencv-videoio406t64
+  libopencv-videostab406t64 libopencv-viz-dev libopencv-viz406t64
+  libopencv406-jni libopenexr-dev libpango1.0-dev libpixman-1-dev libpq5
+  libproj25 libqhull-r8.0 libraw1394-dev libraw1394-tools librttopo1
+  libsharpyuv-dev libsm-dev libsocket++1 libspatialite8t64 libssl-dev
+  libsuperlu6 libswresample-dev libswscale-dev libsz2 libtesseract5
+  libthai-dev libtiffxx6 libtk8.6 liburiparser1 libvtk9.1t64 libwayland-bin
+  libwayland-dev libwebp-dev libwebpdecoder3 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev libzstd-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libspa-0.2-dev
+Suggested packages:
+  pipewire-doc
+The following NEW packages will be installed:
+  libpipewire-0.3-dev libspa-0.2-dev
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 162 kB of archives.
+After this operation, 1,000 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libspa-0.2-dev amd64 1.0.5-1ubuntu3 [108 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpipewire-0.3-dev amd64 1.0.5-1ubuntu3 [53.3 kB]
+Fetched 162 kB in 0s (2,380 kB/s)
+Selecting previously unselected package libspa-0.2-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227177 files and directories currently installed.)
+Preparing to unpack .../libspa-0.2-dev_1.0.5-1ubuntu3_amd64.deb ...
+Unpacking libspa-0.2-dev:amd64 (1.0.5-1ubuntu3) ...
+Selecting previously unselected package libpipewire-0.3-dev:amd64.
+Preparing to unpack .../libpipewire-0.3-dev_1.0.5-1ubuntu3_amd64.deb ...
+Unpacking libpipewire-0.3-dev:amd64 (1.0.5-1ubuntu3) ...
+Setting up libspa-0.2-dev:amd64 (1.0.5-1ubuntu3) ...
+Setting up libpipewire-0.3-dev:amd64 (1.0.5-1ubuntu3) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libdeflate-dev libegl1-mesa-dev libepoxy-dev
+  libexif-dev libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev
+  libfreexl1 libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjbig-dev libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblerc-dev liblz4-dev libminizip1t64 libmysqlclient21
+  libnetcdf19t64 libodbc2 libodbcinst2 libogdi4.1 libopencv-calib3d406t64
+  libopencv-contrib406t64 libopencv-core-dev libopencv-core406t64
+  libopencv-dnn-dev libopencv-dnn406t64 libopencv-features2d406t64
+  libopencv-flann-dev libopencv-flann406t64 libopencv-highgui406t64
+  libopencv-imgcodecs-dev libopencv-imgcodecs406t64 libopencv-imgproc-dev
+  libopencv-imgproc406t64 libopencv-java libopencv-ml-dev libopencv-ml406t64
+  libopencv-objdetect406t64 libopencv-photo-dev libopencv-photo406t64
+  libopencv-shape-dev libopencv-shape406t64 libopencv-stitching406t64
+  libopencv-superres-dev libopencv-superres406t64 libopencv-video-dev
+  libopencv-video406t64 libopencv-videoio-dev libopencv-videoio406t64
+  libopencv-videostab406t64 libopencv-viz-dev libopencv-viz406t64
+  libopencv406-jni libopenexr-dev libpango1.0-dev libpixman-1-dev libpq5
+  libproj25 libqhull-r8.0 libraw1394-dev libraw1394-tools librttopo1
+  libsharpyuv-dev libsm-dev libsocket++1 libspatialite8t64 libssl-dev
+  libsuperlu6 libswresample-dev libswscale-dev libsz2 libtesseract5
+  libthai-dev libtiffxx6 libtk8.6 liburiparser1 libvtk9.1t64 libwayland-bin
+  libwayland-dev libwebp-dev libwebpdecoder3 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev libzstd-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libb2-1 libqt6core6t64 libqt6dbus6t64 libqt6gui6t64 libqt6network6t64
+  libqt6opengl6t64 libqt6qml6 libqt6qmlmodels6 libqt6quick6
+  libqt6waylandclient6 libqt6waylandcompositor6
+  libqt6waylandeglclienthwintegration6
+  libqt6waylandeglcompositorhwintegration6 libqt6wlshellintegration6 libts0t64
+  qt6-gtk-platformtheme qt6-qpa-plugins qt6-translations-l10n qt6-wayland
+Suggested packages:
+  qt6-qmltooling-plugins
+The following NEW packages will be installed:
+  libb2-1 libqt6core6t64 libqt6dbus6t64 libqt6gui6t64 libqt6network6t64
+  libqt6opengl6t64 libqt6qml6 libqt6qmlmodels6 libqt6quick6 libqt6svg6
+  libqt6waylandclient6 libqt6waylandcompositor6
+  libqt6waylandeglclienthwintegration6
+  libqt6waylandeglcompositorhwintegration6 libqt6wlshellintegration6 libts0t64
+  qt6-gtk-platformtheme qt6-qpa-plugins qt6-translations-l10n qt6-wayland
+0 upgraded, 20 newly installed, 0 to remove and 6 not upgraded.
+Need to get 13.3 MB of archives.
+After this operation, 54.8 MB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libb2-1 amd64 0.98.1-1.1build1 [45.0 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6core6t64 amd64 6.4.2+dfsg-21.1build5 [1,789 kB]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6dbus6t64 amd64 6.4.2+dfsg-21.1build5 [267 kB]
+Get:4 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libts0t64 amd64 1.22-1.1build1 [63.8 kB]
+Get:5 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6gui6t64 amd64 6.4.2+dfsg-21.1build5 [3,119 kB]
+Get:6 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6network6t64 amd64 6.4.2+dfsg-21.1build5 [740 kB]
+Get:7 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6opengl6t64 amd64 6.4.2+dfsg-21.1build5 [420 kB]
+Get:8 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6qml6 amd64 6.4.2+dfsg-4build3 [1,619 kB]
+Get:9 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6qmlmodels6 amd64 6.4.2+dfsg-4build3 [267 kB]
+Get:10 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6quick6 amd64 6.4.2+dfsg-4build3 [2,001 kB]
+Get:11 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6svg6 amd64 6.4.2-4ubuntu3 [156 kB]
+Get:12 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6waylandclient6 amd64 6.4.2-5build3 [251 kB]
+Get:13 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6waylandcompositor6 amd64 6.4.2-5build3 [427 kB]
+Get:14 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6waylandeglclienthwintegration6 amd64 6.4.2-5build3 [19.5 kB]
+Get:15 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6waylandeglcompositorhwintegration6 amd64 6.4.2-5build3 [15.2 kB]
+Get:16 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6wlshellintegration6 amd64 6.4.2-5build3 [38.0 kB]
+Get:17 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 qt6-gtk-platformtheme amd64 6.4.2+dfsg-21.1build5 [55.1 kB]
+Get:18 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 qt6-qpa-plugins amd64 6.4.2+dfsg-21.1build5 [89.3 kB]
+Get:19 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 qt6-translations-l10n all 6.4.2-1 [1,761 kB]
+Get:20 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 qt6-wayland amd64 6.4.2-5build3 [127 kB]
+Fetched 13.3 MB in 2s (7,518 kB/s)
+Selecting previously unselected package libb2-1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227410 files and directories currently installed.)
+Preparing to unpack .../00-libb2-1_0.98.1-1.1build1_amd64.deb ...
+Unpacking libb2-1:amd64 (0.98.1-1.1build1) ...
+Selecting previously unselected package libqt6core6t64:amd64.
+Preparing to unpack .../01-libqt6core6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6core6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6dbus6t64:amd64.
+Preparing to unpack .../02-libqt6dbus6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6dbus6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libts0t64:amd64.
+Preparing to unpack .../03-libts0t64_1.22-1.1build1_amd64.deb ...
+Unpacking libts0t64:amd64 (1.22-1.1build1) ...
+Selecting previously unselected package libqt6gui6t64:amd64.
+Preparing to unpack .../04-libqt6gui6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6gui6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6network6t64:amd64.
+Preparing to unpack .../05-libqt6network6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6network6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6opengl6t64:amd64.
+Preparing to unpack .../06-libqt6opengl6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6opengl6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6qml6:amd64.
+Preparing to unpack .../07-libqt6qml6_6.4.2+dfsg-4build3_amd64.deb ...
+Unpacking libqt6qml6:amd64 (6.4.2+dfsg-4build3) ...
+Selecting previously unselected package libqt6qmlmodels6:amd64.
+Preparing to unpack .../08-libqt6qmlmodels6_6.4.2+dfsg-4build3_amd64.deb ...
+Unpacking libqt6qmlmodels6:amd64 (6.4.2+dfsg-4build3) ...
+Selecting previously unselected package libqt6quick6:amd64.
+Preparing to unpack .../09-libqt6quick6_6.4.2+dfsg-4build3_amd64.deb ...
+Unpacking libqt6quick6:amd64 (6.4.2+dfsg-4build3) ...
+Selecting previously unselected package libqt6svg6:amd64.
+Preparing to unpack .../10-libqt6svg6_6.4.2-4ubuntu3_amd64.deb ...
+Unpacking libqt6svg6:amd64 (6.4.2-4ubuntu3) ...
+Selecting previously unselected package libqt6waylandclient6:amd64.
+Preparing to unpack .../11-libqt6waylandclient6_6.4.2-5build3_amd64.deb ...
+Unpacking libqt6waylandclient6:amd64 (6.4.2-5build3) ...
+Selecting previously unselected package libqt6waylandcompositor6:amd64.
+Preparing to unpack .../12-libqt6waylandcompositor6_6.4.2-5build3_amd64.deb ...
+Unpacking libqt6waylandcompositor6:amd64 (6.4.2-5build3) ...
+Selecting previously unselected package libqt6waylandeglclienthwintegration6:amd64.
+Preparing to unpack .../13-libqt6waylandeglclienthwintegration6_6.4.2-5build3_amd64.deb ...
+Unpacking libqt6waylandeglclienthwintegration6:amd64 (6.4.2-5build3) ...
+Selecting previously unselected package libqt6waylandeglcompositorhwintegration6:amd64.
+Preparing to unpack .../14-libqt6waylandeglcompositorhwintegration6_6.4.2-5build3_amd64.deb ...
+Unpacking libqt6waylandeglcompositorhwintegration6:amd64 (6.4.2-5build3) ...
+Selecting previously unselected package libqt6wlshellintegration6:amd64.
+Preparing to unpack .../15-libqt6wlshellintegration6_6.4.2-5build3_amd64.deb ...
+Unpacking libqt6wlshellintegration6:amd64 (6.4.2-5build3) ...
+Selecting previously unselected package qt6-gtk-platformtheme:amd64.
+Preparing to unpack .../16-qt6-gtk-platformtheme_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking qt6-gtk-platformtheme:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package qt6-qpa-plugins:amd64.
+Preparing to unpack .../17-qt6-qpa-plugins_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking qt6-qpa-plugins:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package qt6-translations-l10n.
+Preparing to unpack .../18-qt6-translations-l10n_6.4.2-1_all.deb ...
+Unpacking qt6-translations-l10n (6.4.2-1) ...
+Selecting previously unselected package qt6-wayland:amd64.
+Preparing to unpack .../19-qt6-wayland_6.4.2-5build3_amd64.deb ...
+Unpacking qt6-wayland:amd64 (6.4.2-5build3) ...
+Setting up libb2-1:amd64 (0.98.1-1.1build1) ...
+Setting up libqt6core6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libts0t64:amd64 (1.22-1.1build1) ...
+Setting up libqt6dbus6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up qt6-translations-l10n (6.4.2-1) ...
+Setting up libqt6gui6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6network6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up qt6-qpa-plugins:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6qml6:amd64 (6.4.2+dfsg-4build3) ...
+Setting up libqt6opengl6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6qmlmodels6:amd64 (6.4.2+dfsg-4build3) ...
+Setting up libqt6svg6:amd64 (6.4.2-4ubuntu3) ...
+Setting up libqt6waylandclient6:amd64 (6.4.2-5build3) ...
+Setting up qt6-gtk-platformtheme:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6quick6:amd64 (6.4.2+dfsg-4build3) ...
+Setting up libqt6wlshellintegration6:amd64 (6.4.2-5build3) ...
+Setting up libqt6waylandcompositor6:amd64 (6.4.2-5build3) ...
+Setting up libqt6waylandeglcompositorhwintegration6:amd64 (6.4.2-5build3) ...
+Setting up libqt6waylandeglclienthwintegration6:amd64 (6.4.2-5build3) ...
+Setting up qt6-wayland:amd64 (6.4.2-5build3) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libdeflate-dev libegl1-mesa-dev libepoxy-dev
+  libexif-dev libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev
+  libfreexl1 libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjbig-dev libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblerc-dev liblz4-dev libminizip1t64 libmysqlclient21
+  libnetcdf19t64 libodbc2 libodbcinst2 libogdi4.1 libopencv-calib3d406t64
+  libopencv-contrib406t64 libopencv-core-dev libopencv-core406t64
+  libopencv-dnn-dev libopencv-dnn406t64 libopencv-features2d406t64
+  libopencv-flann-dev libopencv-flann406t64 libopencv-highgui406t64
+  libopencv-imgcodecs-dev libopencv-imgcodecs406t64 libopencv-imgproc-dev
+  libopencv-imgproc406t64 libopencv-java libopencv-ml-dev libopencv-ml406t64
+  libopencv-objdetect406t64 libopencv-photo-dev libopencv-photo406t64
+  libopencv-shape-dev libopencv-shape406t64 libopencv-stitching406t64
+  libopencv-superres-dev libopencv-superres406t64 libopencv-video-dev
+  libopencv-video406t64 libopencv-videoio-dev libopencv-videoio406t64
+  libopencv-videostab406t64 libopencv-viz-dev libopencv-viz406t64
+  libopencv406-jni libopenexr-dev libpango1.0-dev libpixman-1-dev libpq5
+  libproj25 libqhull-r8.0 libraw1394-dev libraw1394-tools librttopo1
+  libsharpyuv-dev libsm-dev libsocket++1 libspatialite8t64 libssl-dev
+  libsuperlu6 libswresample-dev libswscale-dev libsz2 libtesseract5
+  libthai-dev libtiffxx6 libtk8.6 liburiparser1 libvtk9.1t64 libwayland-bin
+  libwayland-dev libwebp-dev libwebpdecoder3 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev libzstd-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libseat1
+The following NEW packages will be installed:
+  libseat-dev libseat1
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 33.2 kB of archives.
+After this operation, 113 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libseat1 amd64 0.8.0-1 [28.3 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libseat-dev amd64 0.8.0-1 [4,958 B]
+Fetched 33.2 kB in 0s (367 kB/s)
+Selecting previously unselected package libseat1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227904 files and directories currently installed.)
+Preparing to unpack .../libseat1_0.8.0-1_amd64.deb ...
+Unpacking libseat1:amd64 (0.8.0-1) ...
+Selecting previously unselected package libseat-dev:amd64.
+Preparing to unpack .../libseat-dev_0.8.0-1_amd64.deb ...
+Unpacking libseat-dev:amd64 (0.8.0-1) ...
+Setting up libseat1:amd64 (0.8.0-1) ...
+Setting up libseat-dev:amd64 (0.8.0-1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libdeflate-dev libegl1-mesa-dev libepoxy-dev
+  libexif-dev libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev
+  libfreexl1 libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjbig-dev libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblerc-dev liblz4-dev libminizip1t64 libmysqlclient21
+  libnetcdf19t64 libodbc2 libodbcinst2 libogdi4.1 libopencv-calib3d406t64
+  libopencv-contrib406t64 libopencv-core-dev libopencv-core406t64
+  libopencv-dnn-dev libopencv-dnn406t64 libopencv-features2d406t64
+  libopencv-flann-dev libopencv-flann406t64 libopencv-highgui406t64
+  libopencv-imgcodecs-dev libopencv-imgcodecs406t64 libopencv-imgproc-dev
+  libopencv-imgproc406t64 libopencv-java libopencv-ml-dev libopencv-ml406t64
+  libopencv-objdetect406t64 libopencv-photo-dev libopencv-photo406t64
+  libopencv-shape-dev libopencv-shape406t64 libopencv-stitching406t64
+  libopencv-superres-dev libopencv-superres406t64 libopencv-video-dev
+  libopencv-video406t64 libopencv-videoio-dev libopencv-videoio406t64
+  libopencv-videostab406t64 libopencv-viz-dev libopencv-viz406t64
+  libopencv406-jni libopenexr-dev libpango1.0-dev libpixman-1-dev libpq5
+  libproj25 libqhull-r8.0 libraw1394-dev libraw1394-tools librttopo1
+  libsharpyuv-dev libsm-dev libsocket++1 libspatialite8t64 libssl-dev
+  libsuperlu6 libswresample-dev libswscale-dev libsz2 libtesseract5
+  libthai-dev libtiffxx6 libtk8.6 liburiparser1 libvtk9.1t64 libwayland-bin
+  libwayland-dev libwebp-dev libwebpdecoder3 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev libzstd-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libstartup-notification0-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 19.5 kB of archives.
+After this operation, 104 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libstartup-notification0-dev amd64 0.12-6build3 [19.5 kB]
+Fetched 19.5 kB in 0s (402 kB/s)
+Selecting previously unselected package libstartup-notification0-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227917 files and directories currently installed.)
+Preparing to unpack .../libstartup-notification0-dev_0.12-6build3_amd64.deb ...
+Unpacking libstartup-notification0-dev:amd64 (0.12-6build3) ...
+Setting up libstartup-notification0-dev:amd64 (0.12-6build3) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libdeflate-dev libegl1-mesa-dev libepoxy-dev
+  libexif-dev libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev
+  libfreexl1 libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjbig-dev libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblerc-dev liblz4-dev libminizip1t64 libmysqlclient21
+  libnetcdf19t64 libodbc2 libodbcinst2 libogdi4.1 libopencv-calib3d406t64
+  libopencv-contrib406t64 libopencv-core-dev libopencv-core406t64
+  libopencv-dnn-dev libopencv-dnn406t64 libopencv-features2d406t64
+  libopencv-flann-dev libopencv-flann406t64 libopencv-highgui406t64
+  libopencv-imgcodecs-dev libopencv-imgcodecs406t64 libopencv-imgproc-dev
+  libopencv-imgproc406t64 libopencv-java libopencv-ml-dev libopencv-ml406t64
+  libopencv-objdetect406t64 libopencv-photo-dev libopencv-photo406t64
+  libopencv-shape-dev libopencv-shape406t64 libopencv-stitching406t64
+  libopencv-superres-dev libopencv-superres406t64 libopencv-video-dev
+  libopencv-video406t64 libopencv-videoio-dev libopencv-videoio406t64
+  libopencv-videostab406t64 libopencv-viz-dev libopencv-viz406t64
+  libopencv406-jni libopenexr-dev libpango1.0-dev libpixman-1-dev libpq5
+  libproj25 libqhull-r8.0 libraw1394-dev libraw1394-tools librttopo1
+  libsharpyuv-dev libsm-dev libsocket++1 libspatialite8t64 libssl-dev
+  libsuperlu6 libswresample-dev libswscale-dev libsz2 libtesseract5
+  libthai-dev libtiffxx6 libtk8.6 liburiparser1 libvtk9.1t64 libwayland-bin
+  libwayland-dev libwebp-dev libwebpdecoder3 libxcb-render0-dev
+  libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev libzstd-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libsystemd-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 1,238 kB of archives.
+After this operation, 6,108 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libsystemd-dev amd64 255.4-1ubuntu8.6 [1,238 kB]
+Fetched 1,238 kB in 0s (5,779 kB/s)
+Selecting previously unselected package libsystemd-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 227931 files and directories currently installed.)
+Preparing to unpack .../libsystemd-dev_255.4-1ubuntu8.6_amd64.deb ...
+Unpacking libsystemd-dev:amd64 (255.4-1ubuntu8.6) ...
+Setting up libsystemd-dev:amd64 (255.4-1ubuntu8.6) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcb-render0-dev libxcb-shm0-dev
+  libxcomposite-dev libxcursor-dev libxdamage-dev libxerces-c3.2t64
+  libxfixes-dev libxft-dev libxi-dev libxinerama-dev libxkbcommon-dev
+  libxrandr-dev libxrender-dev libxtst-dev mysql-common opencv-data
+  pango1.0-tools proj-bin proj-data unixodbc-common wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libjpeg-dev libjpeg-turbo8-dev libjpeg8-dev
+The following packages will be REMOVED:
+  libjpeg62-dev
+The following NEW packages will be installed:
+  libjpeg-dev libjpeg-turbo8-dev libjpeg8-dev libtiff-dev
+0 upgraded, 4 newly installed, 1 to remove and 6 not upgraded.
+Need to get 636 kB of archives.
+After this operation, 1,906 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-turbo8-dev amd64 2.1.5-2ubuntu2 [295 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg8-dev amd64 8c-2ubuntu11 [1,484 B]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libjpeg-dev amd64 8c-2ubuntu11 [1,482 B]
+Get:4 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 libtiff-dev amd64 4.5.1+git230720-4ubuntu2.2 [338 kB]
+Fetched 636 kB in 0s (5,612 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 228662 files and directories currently installed.)
+Removing libjpeg62-dev:amd64 (1:6b2-3.1) ...
+Selecting previously unselected package libjpeg-turbo8-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 228645 files and directories currently installed.)
+Preparing to unpack .../libjpeg-turbo8-dev_2.1.5-2ubuntu2_amd64.deb ...
+Unpacking libjpeg-turbo8-dev:amd64 (2.1.5-2ubuntu2) ...
+Selecting previously unselected package libjpeg8-dev:amd64.
+Preparing to unpack .../libjpeg8-dev_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg8-dev:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package libjpeg-dev:amd64.
+Preparing to unpack .../libjpeg-dev_8c-2ubuntu11_amd64.deb ...
+Unpacking libjpeg-dev:amd64 (8c-2ubuntu11) ...
+Selecting previously unselected package libtiff-dev:amd64.
+Preparing to unpack .../libtiff-dev_4.5.1+git230720-4ubuntu2.2_amd64.deb ...
+Unpacking libtiff-dev:amd64 (4.5.1+git230720-4ubuntu2.2) ...
+Setting up libjpeg-turbo8-dev:amd64 (2.1.5-2ubuntu2) ...
+Setting up libtiff-dev:amd64 (4.5.1+git230720-4ubuntu2.2) ...
+Setting up libjpeg8-dev:amd64 (8c-2ubuntu11) ...
+Setting up libjpeg-dev:amd64 (8c-2ubuntu11) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcb-render0-dev libxcb-shm0-dev
+  libxcomposite-dev libxcursor-dev libxdamage-dev libxerces-c3.2t64
+  libxfixes-dev libxft-dev libxi-dev libxinerama-dev libxkbcommon-dev
+  libxrandr-dev libxrender-dev libxtst-dev mysql-common opencv-data
+  pango1.0-tools proj-bin proj-data unixodbc-common wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libjs-highlight.js libtomlplusplus3t64
+The following NEW packages will be installed:
+  libjs-highlight.js libtomlplusplus-dev libtomlplusplus3t64
+0 upgraded, 3 newly installed, 0 to remove and 6 not upgraded.
+Need to get 590 kB of archives.
+After this operation, 3,244 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libjs-highlight.js all 9.18.5+dfsg1-2 [385 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libtomlplusplus3t64 amd64 3.4.0+ds-0.2build1 [81.7 kB]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libtomlplusplus-dev amd64 3.4.0+ds-0.2build1 [123 kB]
+Fetched 590 kB in 0s (5,089 kB/s)
+Selecting previously unselected package libjs-highlight.js.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 228742 files and directories currently installed.)
+Preparing to unpack .../libjs-highlight.js_9.18.5+dfsg1-2_all.deb ...
+Unpacking libjs-highlight.js (9.18.5+dfsg1-2) ...
+Selecting previously unselected package libtomlplusplus3t64:amd64.
+Preparing to unpack .../libtomlplusplus3t64_3.4.0+ds-0.2build1_amd64.deb ...
+Unpacking libtomlplusplus3t64:amd64 (3.4.0+ds-0.2build1) ...
+Selecting previously unselected package libtomlplusplus-dev:amd64.
+Preparing to unpack .../libtomlplusplus-dev_3.4.0+ds-0.2build1_amd64.deb ...
+Unpacking libtomlplusplus-dev:amd64 (3.4.0+ds-0.2build1) ...
+Setting up libtomlplusplus3t64:amd64 (3.4.0+ds-0.2build1) ...
+Setting up libjs-highlight.js (9.18.5+dfsg1-2) ...
+Setting up libtomlplusplus-dev:amd64 (3.4.0+ds-0.2build1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcb-render0-dev libxcb-shm0-dev
+  libxcomposite-dev libxcursor-dev libxdamage-dev libxerces-c3.2t64
+  libxfixes-dev libxft-dev libxi-dev libxinerama-dev libxkbcommon-dev
+  libxrandr-dev libxrender-dev libxtst-dev mysql-common opencv-data
+  pango1.0-tools proj-bin proj-data unixodbc-common wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libvkfft-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 117 kB of archives.
+After this operation, 1,704 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libvkfft-dev all 1.3.4+ds2-1 [117 kB]
+Fetched 117 kB in 0s (2,325 kB/s)
+Selecting previously unselected package libvkfft-dev.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 228939 files and directories currently installed.)
+Preparing to unpack .../libvkfft-dev_1.3.4+ds2-1_all.deb ...
+Unpacking libvkfft-dev (1.3.4+ds2-1) ...
+Setting up libvkfft-dev (1.3.4+ds2-1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcb-render0-dev libxcb-shm0-dev
+  libxcomposite-dev libxcursor-dev libxdamage-dev libxerces-c3.2t64
+  libxfixes-dev libxft-dev libxi-dev libxinerama-dev libxkbcommon-dev
+  libxrandr-dev libxrender-dev libxtst-dev mysql-common opencv-data
+  pango1.0-tools proj-bin proj-data unixodbc-common wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libvulkan-volk-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 47.9 kB of archives.
+After this operation, 561 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libvulkan-volk-dev amd64 1.3.275.0-1 [47.9 kB]
+Fetched 47.9 kB in 0s (995 kB/s)
+Selecting previously unselected package libvulkan-volk-dev.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229001 files and directories currently installed.)
+Preparing to unpack .../libvulkan-volk-dev_1.3.275.0-1_amd64.deb ...
+Unpacking libvulkan-volk-dev (1.3.275.0-1) ...
+Setting up libvulkan-volk-dev (1.3.275.0-1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcb-shm0-dev libxcomposite-dev
+  libxcursor-dev libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev
+  libxi-dev libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev
+  libxtst-dev mysql-common opencv-data pango1.0-tools proj-bin proj-data
+  unixodbc-common wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libxcb-shape0-dev libxcb-xfixes0-dev
+The following NEW packages will be installed:
+  libxcb-composite0-dev libxcb-shape0-dev libxcb-xfixes0-dev
+0 upgraded, 3 newly installed, 0 to remove and 6 not upgraded.
+Need to get 26.5 kB of archives.
+After this operation, 218 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-shape0-dev amd64 1.15-1ubuntu2 [7,310 B]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-xfixes0-dev amd64 1.15-1ubuntu2 [12.6 kB]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-composite0-dev amd64 1.15-1ubuntu2 [6,526 B]
+Fetched 26.5 kB in 0s (711 kB/s)
+Selecting previously unselected package libxcb-shape0-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229012 files and directories currently installed.)
+Preparing to unpack .../libxcb-shape0-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-shape0-dev:amd64 (1.15-1ubuntu2) ...
+Selecting previously unselected package libxcb-xfixes0-dev:amd64.
+Preparing to unpack .../libxcb-xfixes0-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-xfixes0-dev:amd64 (1.15-1ubuntu2) ...
+Selecting previously unselected package libxcb-composite0-dev:amd64.
+Preparing to unpack .../libxcb-composite0-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-composite0-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-shape0-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-xfixes0-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-composite0-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libxcb-cursor0 libxcb-image0-dev libxcb-render-util0-dev
+The following NEW packages will be installed:
+  libxcb-cursor-dev libxcb-cursor0 libxcb-image0-dev libxcb-render-util0-dev
+0 upgraded, 4 newly installed, 0 to remove and 6 not upgraded.
+Need to get 107 kB of archives.
+After this operation, 341 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libxcb-cursor0 amd64 0.1.4-1build1 [10.7 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-render-util0-dev amd64 0.3.9-1build4 [67.4 kB]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-image0-dev amd64 0.4.0-2build1 [16.3 kB]
+Get:4 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libxcb-cursor-dev amd64 0.1.4-1build1 [12.7 kB]
+Fetched 107 kB in 0s (1,937 kB/s)
+Selecting previously unselected package libxcb-cursor0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229033 files and directories currently installed.)
+Preparing to unpack .../libxcb-cursor0_0.1.4-1build1_amd64.deb ...
+Unpacking libxcb-cursor0:amd64 (0.1.4-1build1) ...
+Selecting previously unselected package libxcb-render-util0-dev:amd64.
+Preparing to unpack .../libxcb-render-util0-dev_0.3.9-1build4_amd64.deb ...
+Unpacking libxcb-render-util0-dev:amd64 (0.3.9-1build4) ...
+Selecting previously unselected package libxcb-image0-dev:amd64.
+Preparing to unpack .../libxcb-image0-dev_0.4.0-2build1_amd64.deb ...
+Unpacking libxcb-image0-dev:amd64 (0.4.0-2build1) ...
+Selecting previously unselected package libxcb-cursor-dev:amd64.
+Preparing to unpack .../libxcb-cursor-dev_0.1.4-1build1_amd64.deb ...
+Unpacking libxcb-cursor-dev:amd64 (0.1.4-1build1) ...
+Setting up libxcb-cursor0:amd64 (0.1.4-1build1) ...
+Setting up libxcb-render-util0-dev:amd64 (0.3.9-1build4) ...
+Setting up libxcb-image0-dev:amd64 (0.4.0-2build1) ...
+Setting up libxcb-cursor-dev:amd64 (0.1.4-1build1) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxcb-dri3-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 8,048 B of archives.
+After this operation, 59.4 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-dri3-dev amd64 1.15-1ubuntu2 [8,048 B]
+Fetched 8,048 B in 0s (260 kB/s)
+Selecting previously unselected package libxcb-dri3-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229065 files and directories currently installed.)
+Preparing to unpack .../libxcb-dri3-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-dri3-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-dri3-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libxcb-ewmh2
+The following NEW packages will be installed:
+  libxcb-ewmh-dev libxcb-ewmh2
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 40.7 kB of archives.
+After this operation, 300 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-ewmh2 amd64 0.4.1-1.1build3 [18.1 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-ewmh-dev amd64 0.4.1-1.1build3 [22.7 kB]
+Fetched 40.7 kB in 0s (656 kB/s)
+Selecting previously unselected package libxcb-ewmh2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229072 files and directories currently installed.)
+Preparing to unpack .../libxcb-ewmh2_0.4.1-1.1build3_amd64.deb ...
+Unpacking libxcb-ewmh2:amd64 (0.4.1-1.1build3) ...
+Selecting previously unselected package libxcb-ewmh-dev:amd64.
+Preparing to unpack .../libxcb-ewmh-dev_0.4.1-1.1build3_amd64.deb ...
+Unpacking libxcb-ewmh-dev:amd64 (0.4.1-1.1build3) ...
+Setting up libxcb-ewmh2:amd64 (0.4.1-1.1build3) ...
+Setting up libxcb-ewmh-dev:amd64 (0.4.1-1.1build3) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxcb-icccm4-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 11.3 kB of archives.
+After this operation, 99.3 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-icccm4-dev amd64 0.4.1-1.1build3 [11.3 kB]
+Fetched 11.3 kB in 0s (344 kB/s)
+Selecting previously unselected package libxcb-icccm4-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229088 files and directories currently installed.)
+Preparing to unpack .../libxcb-icccm4-dev_0.4.1-1.1build3_amd64.deb ...
+Unpacking libxcb-icccm4-dev:amd64 (0.4.1-1.1build3) ...
+Setting up libxcb-icccm4-dev:amd64 (0.4.1-1.1build3) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libxcb-randr0-dev libxcb-sync-dev
+The following NEW packages will be installed:
+  libxcb-present-dev libxcb-randr0-dev libxcb-sync-dev
+0 upgraded, 3 newly installed, 0 to remove and 6 not upgraded.
+Need to get 40.0 kB of archives.
+After this operation, 377 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-randr0-dev amd64 1.15-1ubuntu2 [21.7 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-sync-dev amd64 1.15-1ubuntu2 [11.1 kB]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-present-dev amd64 1.15-1ubuntu2 [7,164 B]
+Fetched 40.0 kB in 0s (688 kB/s)
+Selecting previously unselected package libxcb-randr0-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229097 files and directories currently installed.)
+Preparing to unpack .../libxcb-randr0-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-randr0-dev:amd64 (1.15-1ubuntu2) ...
+Selecting previously unselected package libxcb-sync-dev:amd64.
+Preparing to unpack .../libxcb-sync-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-sync-dev:amd64 (1.15-1ubuntu2) ...
+Selecting previously unselected package libxcb-present-dev:amd64.
+Preparing to unpack .../libxcb-present-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-present-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-randr0-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-sync-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-present-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxcb-res0-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 7,528 B of archives.
+After this operation, 55.3 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-res0-dev amd64 1.15-1ubuntu2 [7,528 B]
+Fetched 7,528 B in 0s (27.6 kB/s)
+Selecting previously unselected package libxcb-res0-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229118 files and directories currently installed.)
+Preparing to unpack .../libxcb-res0-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-res0-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-res0-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxcb-util-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 10.8 kB of archives.
+After this operation, 55.3 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-util-dev amd64 0.4.0-1build3 [10.8 kB]
+Fetched 10.8 kB in 0s (262 kB/s)
+Selecting previously unselected package libxcb-util-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229125 files and directories currently installed.)
+Preparing to unpack .../libxcb-util-dev_0.4.0-1build3_amd64.deb ...
+Unpacking libxcb-util-dev:amd64 (0.4.0-1build3) ...
+Setting up libxcb-util-dev:amd64 (0.4.0-1build3) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxcb-xinerama0-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 6,034 B of archives.
+After this operation, 41.0 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-xinerama0-dev amd64 1.15-1ubuntu2 [6,034 B]
+Fetched 6,034 B in 0s (247 kB/s)
+Selecting previously unselected package libxcb-xinerama0-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229138 files and directories currently installed.)
+Preparing to unpack .../libxcb-xinerama0-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-xinerama0-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-xinerama0-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxcb-xinput-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 46.1 kB of archives.
+After this operation, 510 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-xinput-dev amd64 1.15-1ubuntu2 [46.1 kB]
+Fetched 46.1 kB in 0s (845 kB/s)
+Selecting previously unselected package libxcb-xinput-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229145 files and directories currently installed.)
+Preparing to unpack .../libxcb-xinput-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-xinput-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-xinput-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxkbcommon-dev libxrandr-dev libxrender-dev libxtst-dev
+  mysql-common opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxcb-xkb-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 42.5 kB of archives.
+After this operation, 401 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-xkb-dev amd64 1.15-1ubuntu2 [42.5 kB]
+Fetched 42.5 kB in 0s (818 kB/s)
+Selecting previously unselected package libxcb-xkb-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229152 files and directories currently installed.)
+Preparing to unpack .../libxcb-xkb-dev_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-xkb-dev:amd64 (1.15-1ubuntu2) ...
+Setting up libxcb-xkb-dev:amd64 (1.15-1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxkbcommon-x11-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 5,586 B of archives.
+After this operation, 28.7 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxkbcommon-x11-dev amd64 1.6.0-1build1 [5,586 B]
+Fetched 5,586 B in 0s (208 kB/s)
+Selecting previously unselected package libxkbcommon-x11-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229159 files and directories currently installed.)
+Preparing to unpack .../libxkbcommon-x11-dev_1.6.0-1build1_amd64.deb ...
+Unpacking libxkbcommon-x11-dev:amd64 (1.6.0-1build1) ...
+Setting up libxkbcommon-x11-dev:amd64 (1.6.0-1build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxkbregistry-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 8,072 B of archives.
+After this operation, 44.0 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxkbregistry-dev amd64 1.6.0-1build1 [8,072 B]
+Fetched 8,072 B in 0s (157 kB/s)
+Selecting previously unselected package libxkbregistry-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229165 files and directories currently installed.)
+Preparing to unpack .../libxkbregistry-dev_1.6.0-1build1_amd64.deb ...
+Unpacking libxkbregistry-dev:amd64 (1.6.0-1build1) ...
+Setting up libxkbregistry-dev:amd64 (1.6.0-1build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libxxhash-dev
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 76.5 kB of archives.
+After this operation, 327 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 libxxhash-dev amd64 0.8.2-2build1 [76.5 kB]
+Fetched 76.5 kB in 0s (1,561 kB/s)
+Selecting previously unselected package libxxhash-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229171 files and directories currently installed.)
+Preparing to unpack .../libxxhash-dev_0.8.2-2build1_amd64.deb ...
+Unpacking libxxhash-dev:amd64 (0.8.2-2build1) ...
+Setting up libxxhash-dev:amd64 (0.8.2-2build1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  ninja-build
+The following NEW packages will be installed:
+  meson ninja-build
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 733 kB of archives.
+After this operation, 4,213 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 ninja-build amd64 1.11.1-2 [129 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 meson all 1.3.2-1ubuntu1 [604 kB]
+Fetched 733 kB in 0s (3,716 kB/s)
+Selecting previously unselected package ninja-build.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229181 files and directories currently installed.)
+Preparing to unpack .../ninja-build_1.11.1-2_amd64.deb ...
+Unpacking ninja-build (1.11.1-2) ...
+Selecting previously unselected package meson.
+Preparing to unpack .../meson_1.3.2-1ubuntu1_all.deb ...
+Unpacking meson (1.3.2-1ubuntu1) ...
+Setting up ninja-build (1.11.1-2) ...
+Setting up meson (1.3.2-1ubuntu1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  python3-bs4 python3-cssselect python3-html5lib python3-lxml
+  python3-soupsieve python3-webencodings python3-webob
+Suggested packages:
+  python3-genshi python-lxml-doc python-webob-doc
+The following NEW packages will be installed:
+  python3-bs4 python3-cssselect python3-html5lib python3-lxml python3-pyquery
+  python3-soupsieve python3-webencodings python3-webob
+0 upgraded, 8 newly installed, 0 to remove and 6 not upgraded.
+Need to get 1,614 kB of archives.
+After this operation, 7,099 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 python3-soupsieve all 2.5-1 [33.0 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 python3-bs4 all 4.12.3-1 [109 kB]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 python3-webencodings all 0.5.1-5 [11.5 kB]
+Get:4 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 python3-html5lib all 1.1-6 [88.8 kB]
+Get:5 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 python3-lxml amd64 5.2.1-1 [1,243 kB]
+Get:6 http://gb.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-webob all 1:1.8.7-1ubuntu0.1.24.04.1 [86.4 kB]
+Get:7 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 python3-cssselect all 1.2.0-2 [18.5 kB]
+Get:8 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 python3-pyquery all 1.4.3-1 [23.1 kB]
+Fetched 1,614 kB in 0s (5,078 kB/s)
+Selecting previously unselected package python3-soupsieve.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229457 files and directories currently installed.)
+Preparing to unpack .../0-python3-soupsieve_2.5-1_all.deb ...
+Unpacking python3-soupsieve (2.5-1) ...
+Selecting previously unselected package python3-bs4.
+Preparing to unpack .../1-python3-bs4_4.12.3-1_all.deb ...
+Unpacking python3-bs4 (4.12.3-1) ...
+Selecting previously unselected package python3-webencodings.
+Preparing to unpack .../2-python3-webencodings_0.5.1-5_all.deb ...
+Unpacking python3-webencodings (0.5.1-5) ...
+Selecting previously unselected package python3-html5lib.
+Preparing to unpack .../3-python3-html5lib_1.1-6_all.deb ...
+Unpacking python3-html5lib (1.1-6) ...
+Selecting previously unselected package python3-lxml:amd64.
+Preparing to unpack .../4-python3-lxml_5.2.1-1_amd64.deb ...
+Unpacking python3-lxml:amd64 (5.2.1-1) ...
+Selecting previously unselected package python3-webob.
+Preparing to unpack .../5-python3-webob_1%3a1.8.7-1ubuntu0.1.24.04.1_all.deb ...
+Unpacking python3-webob (1:1.8.7-1ubuntu0.1.24.04.1) ...
+Selecting previously unselected package python3-cssselect.
+Preparing to unpack .../6-python3-cssselect_1.2.0-2_all.deb ...
+Unpacking python3-cssselect (1.2.0-2) ...
+Selecting previously unselected package python3-pyquery.
+Preparing to unpack .../7-python3-pyquery_1.4.3-1_all.deb ...
+Unpacking python3-pyquery (1.4.3-1) ...
+Setting up python3-webencodings (0.5.1-5) ...
+Setting up python3-html5lib (1.1-6) ...
+Setting up python3-lxml:amd64 (5.2.1-1) ...
+Setting up python3-cssselect (1.2.0-2) ...
+Setting up python3-soupsieve (2.5-1) ...
+Setting up python3-webob (1:1.8.7-1ubuntu0.1.24.04.1) ...
+Setting up python3-pyquery (1.4.3-1) ...
+Setting up python3-bs4 (4.12.3-1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libqt6concurrent6t64 libqt6openglwidgets6t64 libqt6printsupport6t64
+  libqt6sql6-sqlite libqt6sql6t64 libqt6test6t64 libqt6widgets6t64
+  libqt6xml6t64 qmake6 qmake6-bin qt6-base-dev-tools
+The following NEW packages will be installed:
+  libqt6concurrent6t64 libqt6openglwidgets6t64 libqt6printsupport6t64
+  libqt6sql6-sqlite libqt6sql6t64 libqt6test6t64 libqt6widgets6t64
+  libqt6xml6t64 qmake6 qmake6-bin qt6-base-dev qt6-base-dev-tools
+0 upgraded, 12 newly installed, 0 to remove and 6 not upgraded.
+Need to get 6,617 kB of archives.
+After this operation, 34.5 MB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6concurrent6t64 amd64 6.4.2+dfsg-21.1build5 [33.4 kB]
+Get:2 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6widgets6t64 amd64 6.4.2+dfsg-21.1build5 [2,648 kB]
+Get:3 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6openglwidgets6t64 amd64 6.4.2+dfsg-21.1build5 [40.4 kB]
+Get:4 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6printsupport6t64 amd64 6.4.2+dfsg-21.1build5 [222 kB]
+Get:5 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6sql6t64 amd64 6.4.2+dfsg-21.1build5 [141 kB]
+Get:6 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6sql6-sqlite amd64 6.4.2+dfsg-21.1build5 [57.8 kB]
+Get:7 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6test6t64 amd64 6.4.2+dfsg-21.1build5 [167 kB]
+Get:8 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 libqt6xml6t64 amd64 6.4.2+dfsg-21.1build5 [75.9 kB]
+Get:9 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 qmake6-bin amd64 6.4.2+dfsg-21.1build5 [624 kB]
+Get:10 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 qmake6 amd64 6.4.2+dfsg-21.1build5 [178 kB]
+Get:11 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 qt6-base-dev-tools amd64 6.4.2+dfsg-21.1build5 [970 kB]
+Get:12 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 qt6-base-dev amd64 6.4.2+dfsg-21.1build5 [1,458 kB]
+Fetched 6,617 kB in 1s (7,232 kB/s)
+Selecting previously unselected package libqt6concurrent6t64:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 229762 files and directories currently installed.)
+Preparing to unpack .../00-libqt6concurrent6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6concurrent6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6widgets6t64:amd64.
+Preparing to unpack .../01-libqt6widgets6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6widgets6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6openglwidgets6t64:amd64.
+Preparing to unpack .../02-libqt6openglwidgets6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6openglwidgets6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6printsupport6t64:amd64.
+Preparing to unpack .../03-libqt6printsupport6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6printsupport6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6sql6t64:amd64.
+Preparing to unpack .../04-libqt6sql6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6sql6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6sql6-sqlite:amd64.
+Preparing to unpack .../05-libqt6sql6-sqlite_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6sql6-sqlite:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6test6t64:amd64.
+Preparing to unpack .../06-libqt6test6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6test6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package libqt6xml6t64:amd64.
+Preparing to unpack .../07-libqt6xml6t64_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking libqt6xml6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package qmake6-bin.
+Preparing to unpack .../08-qmake6-bin_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking qmake6-bin (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package qmake6:amd64.
+Preparing to unpack .../09-qmake6_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking qmake6:amd64 (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package qt6-base-dev-tools.
+Preparing to unpack .../10-qt6-base-dev-tools_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking qt6-base-dev-tools (6.4.2+dfsg-21.1build5) ...
+Selecting previously unselected package qt6-base-dev:amd64.
+Preparing to unpack .../11-qt6-base-dev_6.4.2+dfsg-21.1build5_amd64.deb ...
+Unpacking qt6-base-dev:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6widgets6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up qt6-base-dev-tools (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6sql6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6openglwidgets6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6test6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6concurrent6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6xml6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6sql6-sqlite:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up libqt6printsupport6t64:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up qmake6-bin (6.4.2+dfsg-21.1build5) ...
+Setting up qmake6:amd64 (6.4.2+dfsg-21.1build5) ...
+Setting up qt6-base-dev:amd64 (6.4.2+dfsg-21.1build5) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  scdoc
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 15.4 kB of archives.
+After this operation, 48.1 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 scdoc amd64 1.11.2-1 [15.4 kB]
+Fetched 15.4 kB in 0s (426 kB/s)
+Selecting previously unselected package scdoc.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 233088 files and directories currently installed.)
+Preparing to unpack .../scdoc_1.11.2-1_amd64.deb ...
+Unpacking scdoc (1.11.2-1) ...
+Setting up scdoc (1.11.2-1) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  seatd
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 27.7 kB of archives.
+After this operation, 102 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 seatd amd64 0.8.0-1 [27.7 kB]
+Fetched 27.7 kB in 0s (417 kB/s)
+Selecting previously unselected package seatd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 233095 files and directories currently installed.)
+Preparing to unpack .../seatd_0.8.0-1_amd64.deb ...
+Unpacking seatd (0.8.0-1) ...
+Setting up seatd (0.8.0-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/seatd.service → /usr/lib/systemd/system/seatd.service.
+Processing triggers for man-db (2.12.0-4build2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  vulkan-validationlayers
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 7,594 kB of archives.
+After this operation, 43.4 MB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 vulkan-validationlayers amd64 1.3.275.0-1 [7,594 kB]
+Fetched 7,594 kB in 1s (9,476 kB/s)
+Selecting previously unselected package vulkan-validationlayers:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 233107 files and directories currently installed.)
+Preparing to unpack .../vulkan-validationlayers_1.3.275.0-1_amd64.deb ...
+Unpacking vulkan-validationlayers:amd64 (1.3.275.0-1) ...
+Setting up vulkan-validationlayers:amd64 (1.3.275.0-1) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: You must put some 'deb-src' URIs in your sources.list

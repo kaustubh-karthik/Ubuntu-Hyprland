@@ -1,0 +1,7 @@
+-- Install configuration: "Release"
+-- Installing: /usr/local/bin/hyprlock
+CMake Error at build/cmake_install.cmake:64 (install):
+  install command is not scriptable
+
+
+[32m[OK](B[m [35mhyprlock v0.3.0(B[m has been successfully installed.

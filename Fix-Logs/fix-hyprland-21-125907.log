@@ -1,0 +1,730 @@
+[34m[INFO](B[m Starting Hyprland installation fix...
+[34m[INFO](B[m Installing dependencies required for Hyprland...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://gb.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:3 http://gb.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:4 http://gb.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:5 https://esm.ubuntu.com/apps/ubuntu noble-apps-security InRelease
+Hit:6 https://esm.ubuntu.com/apps/ubuntu noble-apps-updates InRelease
+Hit:7 https://apt.packages.shiftkey.dev/ubuntu any InRelease
+Hit:8 https://esm.ubuntu.com/infra/ubuntu noble-infra-security InRelease
+Hit:9 https://ppa.launchpadcontent.net/tomtomtom/woeusb/ubuntu noble InRelease
+Hit:10 https://esm.ubuntu.com/infra/ubuntu noble-infra-updates InRelease
+Hit:11 https://dl.google.com/linux/chrome/deb stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+6 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+cmake is already the newest version (3.28.3-1build7).
+ninja-build is already the newest version (1.11.1-2).
+meson is already the newest version (1.3.2-1ubuntu1).
+wget is already the newest version (1.21.4-1ubuntu4.1).
+curl is already the newest version (8.5.0-2ubuntu10.6).
+git is already the newest version (1:2.43.0-1ubuntu7.2).
+build-essential is already the newest version (12.10ubuntu1).
+libpango1.0-dev is already the newest version (1.52.1+ds-1build1).
+libgbm-dev is already the newest version (24.2.8-1ubuntu1~24.04.1).
+libdrm-dev is already the newest version (2.4.122-1~ubuntu0.24.04.1).
+libwayland-dev is already the newest version (1.22.0-2.1build1).
+libwayland-server0 is already the newest version (1.22.0-2.1build1).
+wayland-protocols is already the newest version (1.34-1).
+libinput-dev is already the newest version (1.25.0-1ubuntu3).
+libxkbcommon-dev is already the newest version (1.6.0-1build1).
+libudev-dev is already the newest version (255.4-1ubuntu8.6).
+libpixman-1-dev is already the newest version (0.42.2-1build1).
+libseat-dev is already the newest version (0.8.0-1).
+hwdata is already the newest version (0.379-1).
+libdisplay-info-dev is already the newest version (0.1.1-2build1).
+libliftoff-dev is already the newest version (0.4.1-1).
+libvulkan-dev is already the newest version (1.3.275.0-1build1).
+glslang-tools is already the newest version (14.0.0-2).
+0 upgraded, 0 newly installed, 0 to remove and 6 not upgraded.
+[34m[INFO](B[m Cleaning up any existing Hyprland installations...
+[34m[INFO](B[m Cleaning up any existing Hyprland build directories...
+[34m[INFO](B[m Removing existing Hyprland directory...
+[34m[INFO](B[m Cloning Hyprland repository (tag: v0.39.1)...
+Cloning into 'Hyprland'...
+Note: switching to 'fe7b748eb668136dd0558b7c8279bfcd7ab4d759'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+Submodule 'subprojects/hyprland-protocols' (https://github.com/hyprwm/hyprland-protocols) registered for path 'subprojects/hyprland-protocols'
+Submodule 'subprojects/tracy' (https://github.com/wolfpld/tracy) registered for path 'subprojects/tracy'
+Submodule 'subprojects/udis86' (https://github.com/canihavesomecoffee/udis86) registered for path 'subprojects/udis86'
+Submodule 'subprojects/wlroots-hyprland' (https://github.com/hyprwm/wlroots-hyprland) registered for path 'subprojects/wlroots-hyprland'
+Cloning into '/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/subprojects/hyprland-protocols'...
+Cloning into '/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/subprojects/tracy'...
+Cloning into '/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/subprojects/udis86'...
+Cloning into '/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/subprojects/wlroots-hyprland'...
+Submodule path 'subprojects/hyprland-protocols': checked out '0c2ce70625cb30aef199cb388f99e19a61a6ce03'
+Submodule path 'subprojects/tracy': checked out '37aff70dfa50cf6307b3fee6074d627dc2929143'
+Submodule path 'subprojects/udis86': checked out '5336633af70f3917760a6d441ff02d93477b0c86'
+Submodule path 'subprojects/wlroots-hyprland': checked out '611a4f24cd2384378f6e500253983107c6656c64'
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Gathering git info
+-- Found Python3: /home/kaustubh/miniconda3/bin/python3 (found version "3.13.2") found components: Interpreter 
+Building itab.c/itab.h...
+-- Setting up wlroots
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Found WaylandScanner at /usr/bin/wayland-scanner
+-- Found wayland-protocols at //usr/share/wayland-protocols
+-- Configuring Hyprland in Release with CMake
+-- Checking deps...
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: GLES3 
+-- Checking for modules 'xkbcommon;wayland-server;wayland-client;wayland-cursor;wayland-protocols;cairo;pango;pangocairo;pixman-1;libdrm;libinput;hwdata;libseat;libdisplay-info;libliftoff;libudev;gbm;hyprlang>=0.3.2;hyprcursor>=0.1.7'
+--   Found xkbcommon, version 1.6.0
+--   Found wayland-server, version 1.22.0
+--   Found wayland-client, version 1.22.0
+--   Found wayland-cursor, version 1.22.0
+--   Found wayland-protocols, version 1.34
+--   Found cairo, version 1.18.0
+--   Found pango, version 1.52.1
+--   Found pangocairo, version 1.52.1
+--   Found pixman-1, version 0.42.2
+--   Found libdrm, version 2.4.122
+--   Found libinput, version 1.25.0
+--   Found hwdata, version 0.379
+--   Found libseat, version 0.8.0
+--   Found libdisplay-info, version 0.1.1
+--   Found libliftoff, version 0.4.1
+--   Found libudev, version 255
+--   Found gbm, version 24.2.8-1ubuntu1~24.04.1
+--   Found hyprlang, version 0.5.2
+--   Found hyprcursor, version 0.1.9
+-- Looking for execinfo.h
+-- Looking for execinfo.h - found
+-- Configuration supports execinfo
+-- Looking for backtrace in execinfo
+-- Looking for backtrace in execinfo - not found
+-- Looking for sys/timerfd.h
+-- Looking for sys/timerfd.h - found
+-- Checking for module 'epoll-shim'
+--   Package 'epoll-shim', required by 'virtual:world', not found
+-- XWAYLAND Enabled (NO_XWAYLAND not defined) checking deps...
+-- Checking for modules 'xcb;xwayland;xcb-util;xcb-render;xcb-xfixes;xcb-icccm;xcb-composite;xcb-res;xcb-ewmh'
+--   Found xcb, version 1.15
+--   Found xwayland, version 23.2.6
+--   Found xcb-util, version 0.4.0
+--   Found xcb-render, version 1.15
+--   Found xcb-xfixes, version 1.15
+--   Found xcb-icccm, version 0.4.1
+--   Found xcb-composite, version 1.15
+--   Found xcb-res, version 1.15
+--   Found xcb-ewmh, version 0.4.1
+-- Checking for module 'xcb-errors'
+--   Package 'xcb-errors', required by 'virtual:world', not found
+-- SYSTEMD support is requested (NO_SYSTEMD not defined) checking deps...
+-- Looking for systemd/sd-daemon.h
+-- Looking for systemd/sd-daemon.h - found
+-- Checking for module 'libsystemd'
+--   Found libsystemd, version 255
+-- Systemd found
+-- Setting precompiled headers
+-- Setting link libraries
+-- Checking for module 'tomlplusplus'
+--   Found tomlplusplus, version 3.4.0
+-- Configuring done (3.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/build
+[34m[INFO](B[m Compiling Hyprland with ninja...
+ninja: Entering directory `build'
+[0/2] Re-checking globbed directories...
+[1/120] Creating directories for 'wlroots-hyprland'
+[2/120] Building C object subprojects/udis86/libudis86/CMakeFiles/libudis86.dir/syn-att.c.o
+[3/120] Building C object subprojects/udis86/libudis86/CMakeFiles/libudis86.dir/syn.c.o
+[4/120] Building C object subprojects/udis86/libudis86/CMakeFiles/libudis86.dir/syn-intel.c.o
+[5/120] No download step for 'wlroots-hyprland'
+[6/120] Building C object subprojects/udis86/libudis86/CMakeFiles/libudis86.dir/udis86.c.o
+[7/120] No update step for 'wlroots-hyprland'
+[8/120] No patch step for 'wlroots-hyprland'
+[9/120] Building C object subprojects/udis86/libudis86/CMakeFiles/libudis86.dir/decode.c.o
+[10/120] Building C object subprojects/udis86/libudis86/CMakeFiles/libudis86.dir/itab.c.o
+[11/120] Linking C static library subprojects/udis86/libudis86/liblibudis86.a
+[12/120] Building CXX object hyprpm/CMakeFiles/hyprpm.dir/src/main.cpp.o
+[13/120] Building CXX object hyprpm/CMakeFiles/hyprpm.dir/src/core/Manifest.cpp.o
+[14/120] Performing configure step for 'wlroots-hyprland'
+The Meson build system
+Version: 1.3.2
+Source dir: /home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/subprojects/wlroots-hyprland
+Build dir: /home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/subprojects/wlroots-hyprland/build
+Build type: native build
+Project name: wlroots
+Project version: 0.18.0-dev
+C compiler for the host machine: cc (gcc 13.3.0 "cc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0")
+C linker for the host machine: cc ld.bfd 2.42
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Compiler for C supports arguments -Wundef: YES 
+Compiler for C supports arguments -Wlogical-op: YES 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Compiler for C supports arguments -Winit-self: YES 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Compiler for C supports arguments -Wimplicit-fallthrough=2: YES 
+Compiler for C supports arguments -Wendif-labels: YES 
+Compiler for C supports arguments -Wstrict-aliasing=2: YES 
+Compiler for C supports arguments -Woverflow: YES 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Compiler for C supports arguments -Walloca: YES 
+Compiler for C supports arguments -Wno-missing-braces: YES 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Compiler for C supports arguments -fmacro-prefix-map=/prefix/to/hide=: YES 
+Found pkg-config: YES (/usr/bin/pkg-config) 1.8.1
+Run-time dependency wayland-server found: YES 1.22.0
+Run-time dependency libdrm found: YES 2.4.122
+Run-time dependency xkbcommon found: YES 1.6.0
+Run-time dependency pixman-1 found: YES 0.42.2
+Library m found: YES
+Library rt found: YES
+Run-time dependency wayland-protocols found: YES 1.34
+Build-time dependency wayland-scanner found: YES 1.22.0
+Program /usr/bin/wayland-scanner found: YES (/usr/bin/wayland-scanner)
+Has header "linux/dma-buf.h" : YES 
+Run-time dependency egl found: YES 1.5
+Run-time dependency gbm found: YES 24.2.8-1ubuntu1~24.04.1
+Run-time dependency glesv2 found: YES 3.2
+Program ./embed.sh found: YES (/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/subprojects/wlroots-hyprland/render/gles2/shaders/./embed.sh)
+Dependency pixman-1 found: YES 0.42.2 (cached)
+Dependency gbm found: YES 24.2.8-1ubuntu1~24.04.1 (cached)
+Checking for function "gbm_bo_get_fd_for_plane" with dependency gbm: YES 
+Run-time dependency libudev found: YES 255
+Run-time dependency libseat found: YES 0.8.0
+Build-time dependency hwdata found: YES 0.379
+Run-time dependency libdisplay-info found: YES 0.1.1
+Run-time dependency libliftoff found: YES 0.4.1
+Run-time dependency libinput found: YES 1.25.0
+Run-time dependency wayland-client found: YES 1.22.0
+Run-time dependency xwayland found: YES 23.2.6
+Run-time dependency xcb found: YES 1.15
+Run-time dependency xcb-composite found: YES 1.15
+Run-time dependency xcb-ewmh found: YES 0.4.1
+Run-time dependency xcb-icccm found: YES 0.4.1
+Run-time dependency xcb-render found: YES 1.15
+Run-time dependency xcb-res found: YES 1.15
+Run-time dependency xcb-xfixes found: YES 1.15
+Found CMake: /usr/bin/cmake (3.28.3)
+Run-time dependency xcb-errors found: NO (tried pkgconfig and cmake)
+Message: Required for printing X11 errors.
+Checking for function "xcb_xfixes_set_client_disconnect_mode" with dependencies xcb, xcb-composite, xcb-ewmh, xcb-icccm, xcb-render, xcb-res, xcb-xfixes, xcb-errors: YES 
+Configuring config.h using configuration
+Configuring version.h using configuration
+Configuring config.h using configuration
+Build targets in project: 136
+
+wlroots 0.18.0-dev
+
+    drm-backend     : YES
+    x11-backend     : NO
+    libinput-backend: YES
+    xwayland        : YES
+    gles2-renderer  : YES
+    vulkan-renderer : NO
+    gbm-allocator   : YES
+    session         : YES
+    xcb-errors      : NO
+    egl             : YES
+    libliftoff      : YES
+
+  User defined options
+    buildtype       : release
+    werror          : false
+    b_sanitize      : none
+    backends        : drm,libinput
+    examples        : false
+    renderers       : gles2
+    xwayland        : enabled
+
+Found ninja-1.11.1 at /usr/bin/ninja
+[15/120] Building CXX object hyprpm/CMakeFiles/hyprpm.dir/src/core/DataState.cpp.o
+[16/120] Building CXX object hyprpm/CMakeFiles/hyprpm.dir/src/progress/CProgressBar.cpp.o
+[17/120] Performing build step for 'wlroots-hyprland'
+ninja: Entering directory `build'
+[1/315] Generating protocol/linux_dmabuf_v1_server_h with a custom command
+[2/315] Generating protocol/linux_dmabuf_v1_c with a custom command
+[3/315] Generating protocol/linux_dmabuf_v1_client_h with a custom command
+[4/315] Generating protocol/presentation_time_server_h with a custom command
+[5/315] Generating protocol/presentation_time_c with a custom command
+[6/315] Generating protocol/presentation_time_client_h with a custom command
+[7/315] Generating protocol/viewporter_c with a custom command
+[8/315] Generating protocol/xdg_shell_c with a custom command
+[9/315] Generating protocol/content_type_v1_c with a custom command
+[10/315] Generating protocol/xdg_shell_client_h with a custom command
+[11/315] Generating protocol/cursor_shape_v1_c with a custom command
+[12/315] Generating protocol/viewporter_server_h with a custom command
+[13/315] Generating protocol/drm_lease_v1_server_h with a custom command
+[14/315] Generating protocol/drm_lease_v1_c with a custom command
+[15/315] Generating protocol/ext_foreign_toplevel_list_v1_server_h with a custom command
+[16/315] Generating protocol/ext_idle_notify_v1_c with a custom command
+[17/315] Generating protocol/xdg_shell_server_h with a custom command
+[18/315] Generating protocol/viewporter_client_h with a custom command
+[19/315] Generating protocol/ext_foreign_toplevel_list_v1_c with a custom command
+[20/315] Generating protocol/cursor_shape_v1_server_h with a custom command
+[21/315] Generating protocol/content_type_v1_server_h with a custom command
+[22/315] Generating protocol/ext_idle_notify_v1_server_h with a custom command
+[23/315] Generating protocol/ext_session_lock_v1_c with a custom command
+[24/315] Generating protocol/security_context_v1_server_h with a custom command
+[25/315] Generating protocol/ext_session_lock_v1_server_h with a custom command
+[26/315] Generating protocol/security_context_v1_c with a custom command
+[27/315] Generating protocol/fractional_scale_v1_server_h with a custom command
+[28/315] Generating protocol/single_pixel_buffer_v1_c with a custom command
+[29/315] Generating protocol/xdg_activation_v1_server_h with a custom command
+[30/315] Generating protocol/single_pixel_buffer_v1_server_h with a custom command
+[31/315] Generating protocol/fractional_scale_v1_c with a custom command
+[32/315] Generating protocol/xdg_activation_v1_c with a custom command
+[33/315] Generating protocol/tearing_control_v1_server_h with a custom command
+[34/315] Generating protocol/xwayland_shell_v1_c with a custom command
+[35/315] Generating protocol/xdg_activation_v1_client_h with a custom command
+[36/315] Generating protocol/tearing_control_v1_c with a custom command
+[37/315] Generating protocol/xwayland_shell_v1_server_h with a custom command
+[38/315] Generating protocol/keyboard_shortcuts_inhibit_unstable_v1_c with a custom command
+[39/315] Generating protocol/keyboard_shortcuts_inhibit_unstable_v1_server_h with a custom command
+[40/315] Generating protocol/idle_inhibit_unstable_v1_server_h with a custom command
+[41/315] Generating protocol/fullscreen_shell_unstable_v1_c with a custom command
+[42/315] Generating protocol/pointer_constraints_unstable_v1_c with a custom command
+[43/315] Generating protocol/idle_inhibit_unstable_v1_c with a custom command
+[44/315] Generating protocol/fullscreen_shell_unstable_v1_server_h with a custom command
+[45/315] Generating protocol/pointer_gestures_unstable_v1_c with a custom command
+[46/315] Generating protocol/pointer_constraints_unstable_v1_server_h with a custom command
+[47/315] Generating protocol/pointer_gestures_unstable_v1_server_h with a custom command
+[48/315] Generating protocol/pointer_gestures_unstable_v1_client_h with a custom command
+[49/315] Generating protocol/text_input_unstable_v3_c with a custom command
+[50/315] Generating protocol/relative_pointer_unstable_v1_c with a custom command
+[51/315] Generating protocol/tablet_unstable_v2_client_h with a custom command
+[52/315] Generating protocol/text_input_unstable_v3_server_h with a custom command
+[53/315] Generating protocol/primary_selection_unstable_v1_c with a custom command
+[54/315] Generating protocol/relative_pointer_unstable_v1_server_h with a custom command
+[55/315] Generating protocol/relative_pointer_unstable_v1_client_h with a custom command
+[56/315] Generating protocol/tablet_unstable_v2_c with a custom command
+[57/315] Generating protocol/tablet_unstable_v2_server_h with a custom command
+[58/315] Generating protocol/xdg_decoration_unstable_v1_c with a custom command
+[59/315] Generating protocol/primary_selection_unstable_v1_server_h with a custom command
+[60/315] Generating protocol/xdg_decoration_unstable_v1_server_h with a custom command
+[61/315] Generating protocol/xdg_foreign_unstable_v1_c with a custom command
+[62/315] Generating protocol/xdg_decoration_unstable_v1_client_h with a custom command
+[63/315] Generating protocol/xdg_output_unstable_v1_c with a custom command
+[64/315] Generating protocol/xdg_foreign_unstable_v2_c with a custom command
+[65/315] Generating protocol/xdg_foreign_unstable_v1_server_h with a custom command
+[66/315] Generating protocol/xdg_foreign_unstable_v2_server_h with a custom command
+[67/315] Generating protocol/ext_transient_seat_v1_c with a custom command
+[68/315] Generating protocol/ext_transient_seat_v1_server_h with a custom command
+[69/315] Generating protocol/input_method_unstable_v2_c with a custom command
+[70/315] Generating protocol/xdg_output_unstable_v1_server_h with a custom command
+[71/315] Generating protocol/drm_client_h with a custom command
+[72/315] Generating protocol/drm_c with a custom command
+[73/315] Generating protocol/wlr_foreign_toplevel_management_unstable_v1_c with a custom command
+[74/315] Generating protocol/drm_server_h with a custom command
+[75/315] Generating protocol/input_method_unstable_v2_server_h with a custom command
+[76/315] Generating protocol/kde_server_decoration_c with a custom command
+[77/315] Generating protocol/wlr_export_dmabuf_unstable_v1_c with a custom command
+[78/315] Generating protocol/wlr_data_control_unstable_v1_c with a custom command
+[79/315] Generating protocol/wlr_data_control_unstable_v1_server_h with a custom command
+[80/315] Generating protocol/virtual_keyboard_unstable_v1_server_h with a custom command
+[81/315] Generating protocol/virtual_keyboard_unstable_v1_c with a custom command
+[82/315] Generating protocol/kde_server_decoration_server_h with a custom command
+[83/315] Generating protocol/wlr_export_dmabuf_unstable_v1_server_h with a custom command
+[84/315] Generating protocol/wlr_gamma_control_unstable_v1_c with a custom command
+[85/315] Generating protocol/wlr_gamma_control_unstable_v1_server_h with a custom command
+[86/315] Generating protocol/wlr_foreign_toplevel_management_unstable_v1_server_h with a custom command
+[87/315] Generating protocol/wlr_layer_shell_unstable_v1_server_h with a custom command
+[88/315] Generating protocol/wlr_layer_shell_unstable_v1_c with a custom command
+[89/315] Generating protocol/wlr_output_management_unstable_v1_c with a custom command
+[90/315] Generating protocol/wlr_screencopy_unstable_v1_c with a custom command
+[91/315] Generating protocol/wlr_output_power_management_unstable_v1_server_h with a custom command
+[92/315] Generating protocol/wlr_output_power_management_unstable_v1_c with a custom command
+[93/315] Generating protocol/wlr_virtual_pointer_unstable_v1_c with a custom command
+[94/315] Generating protocol/wlr_virtual_pointer_unstable_v1_server_h with a custom command
+[95/315] Generating protocol/wlr_screencopy_unstable_v1_server_h with a custom command
+[96/315] Generating protocol/wlr_output_management_unstable_v1_server_h with a custom command
+[97/315] Generating render/gles2/shaders/quad_frag_src.h with a custom command (wrapped by meson to capture output, to feed input)
+[98/315] Generating render/gles2/shaders/tex_rgba_frag_src.h with a custom command (wrapped by meson to capture output, to feed input)
+[99/315] Generating render/gles2/shaders/common_vert_src.h with a custom command (wrapped by meson to capture output, to feed input)
+[100/315] Generating render/gles2/shaders/tex_external_frag_src.h with a custom command (wrapped by meson to capture output, to feed input)
+[101/315] Generating render/gles2/shaders/tex_rgbx_frag_src.h with a custom command (wrapped by meson to capture output, to feed input)
+[102/315] Generating backend/drm/pnpids.c with a custom command (wrapped by meson to capture output, to feed input)
+[103/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_content-type-v1-protocol.c.o
+[104/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_linux-dmabuf-v1-protocol.c.o
+[105/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_cursor-shape-v1-protocol.c.o
+[106/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_viewporter-protocol.c.o
+[107/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_presentation-time-protocol.c.o
+[108/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_fractional-scale-v1-protocol.c.o
+[109/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_fullscreen-shell-unstable-v1-protocol.c.o
+[110/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_xdg-shell-protocol.c.o
+[111/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_ext-foreign-toplevel-list-v1-protocol.c.o
+[112/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_ext-session-lock-v1-protocol.c.o
+[113/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_drm-lease-v1-protocol.c.o
+[114/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_xdg-activation-v1-protocol.c.o
+[115/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_xwayland-shell-v1-protocol.c.o
+[116/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_security-context-v1-protocol.c.o
+[117/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_idle-inhibit-unstable-v1-protocol.c.o
+[118/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_single-pixel-buffer-v1-protocol.c.o
+[119/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_tearing-control-v1-protocol.c.o
+[120/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_pointer-gestures-unstable-v1-protocol.c.o
+[121/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_pointer-constraints-unstable-v1-protocol.c.o
+[122/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_ext-idle-notify-v1-protocol.c.o
+[123/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_keyboard-shortcuts-inhibit-unstable-v1-protocol.c.o
+[124/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_primary-selection-unstable-v1-protocol.c.o
+[125/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_tablet-unstable-v2-protocol.c.o
+[126/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_relative-pointer-unstable-v1-protocol.c.o
+[127/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_xdg-foreign-unstable-v2-protocol.c.o
+[128/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_text-input-unstable-v3-protocol.c.o
+[129/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_xdg-foreign-unstable-v1-protocol.c.o
+[130/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_ext-transient-seat-v1-protocol.c.o
+[131/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_xdg-output-unstable-v1-protocol.c.o
+[132/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_input-method-unstable-v2-protocol.c.o
+[133/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_xdg-decoration-unstable-v1-protocol.c.o
+[134/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_virtual-keyboard-unstable-v1-protocol.c.o
+[135/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_drm-protocol.c.o
+[136/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_server-decoration-protocol.c.o
+[137/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_wlr-data-control-unstable-v1-protocol.c.o
+[138/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_wlr-foreign-toplevel-management-unstable-v1-protocol.c.o
+[139/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_wlr-output-power-management-unstable-v1-protocol.c.o
+[140/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_wlr-export-dmabuf-unstable-v1-protocol.c.o
+[141/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_wlr-virtual-pointer-unstable-v1-protocol.c.o
+[142/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_wlr-screencopy-unstable-v1-protocol.c.o
+[143/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_wlr-layer-shell-unstable-v1-protocol.c.o
+[144/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_wlr-output-management-unstable-v1-protocol.c.o
+[145/315] Compiling C object libwlroots.a.p/meson-generated_.._protocol_wlr-gamma-control-unstable-v1-protocol.c.o
+[146/315] Compiling C object libwlroots.a.p/render_dmabuf.c.o
+[147/315] Compiling C object libwlroots.a.p/render_dmabuf_linux.c.o
+[148/315] Compiling C object libwlroots.a.p/render_pass.c.o
+[149/315] Compiling C object libwlroots.a.p/render_wlr_texture.c.o
+[150/315] Compiling C object libwlroots.a.p/render_pixman_pixel_format.c.o
+[151/315] Compiling C object libwlroots.a.p/render_pixel_format.c.o
+[152/315] Compiling C object libwlroots.a.p/render_swapchain.c.o
+[153/315] Compiling C object libwlroots.a.p/render_allocator_shm.c.o
+[154/315] Compiling C object libwlroots.a.p/render_gles2_pixel_format.c.o
+[155/315] Compiling C object libwlroots.a.p/render_drm_format_set.c.o
+[156/315] Compiling C object libwlroots.a.p/render_pixman_pass.c.o
+[157/315] Compiling C object libwlroots.a.p/render_gles2_pass.c.o
+[158/315] Compiling C object libwlroots.a.p/render_wlr_renderer.c.o
+[159/315] Compiling C object libwlroots.a.p/render_allocator_allocator.c.o
+[160/315] Compiling C object libwlroots.a.p/render_allocator_drm_dumb.c.o
+[161/315] Compiling C object libwlroots.a.p/render_gles2_texture.c.o
+[162/315] Compiling C object libwlroots.a.p/render_allocator_gbm.c.o
+[163/315] Compiling C object libwlroots.a.p/backend_drm_backend.c.o
+[164/315] Compiling C object libwlroots.a.p/backend_backend.c.o
+[165/315] Compiling C object libwlroots.a.p/render_pixman_renderer.c.o
+[166/315] Compiling C object libwlroots.a.p/backend_drm_monitor.c.o
+[167/315] Compiling C object libwlroots.a.p/backend_drm_fb.c.o
+[168/315] Compiling C object libwlroots.a.p/backend_drm_properties.c.o
+[169/315] Compiling C object libwlroots.a.p/backend_drm_renderer.c.o
+[170/315] Compiling C object libwlroots.a.p/backend_session_session.c.o
+[171/315] Compiling C object libwlroots.a.p/backend_libinput_pointer.c.o
+[172/315] Compiling C object libwlroots.a.p/backend_drm_util.c.o
+[173/315] Compiling C object libwlroots.a.p/backend_libinput_touch.c.o
+[174/315] Compiling C object libwlroots.a.p/backend_libinput_keyboard.c.o
+[175/315] Compiling C object libwlroots.a.p/backend_drm_legacy.c.o
+[176/315] Compiling C object libwlroots.a.p/backend_libinput_tablet_pad.c.o
+[177/315] Compiling C object libwlroots.a.p/backend_libinput_switch.c.o
+[178/315] Compiling C object libwlroots.a.p/render_gles2_renderer.c.o
+[179/315] Compiling C object libwlroots.a.p/backend_libinput_backend.c.o
+[180/315] Compiling C object libwlroots.a.p/backend_libinput_events.c.o
+[181/315] Compiling C object libwlroots.a.p/render_egl.c.o
+[182/315] Compiling C object libwlroots.a.p/backend_libinput_tablet_tool.c.o
+[183/315] Compiling C object libwlroots.a.p/backend_multi_backend.c.o
+[184/315] Compiling C object libwlroots.a.p/backend_drm_atomic.c.o
+[185/315] Compiling C object libwlroots.a.p/backend_headless_backend.c.o
+[186/315] Compiling C object libwlroots.a.p/backend_drm_libliftoff.c.o
+[187/315] Compiling C object libwlroots.a.p/types_output_state.c.o
+[188/315] Compiling C object libwlroots.a.p/backend_wayland_seat.c.o
+[189/315] Compiling C object libwlroots.a.p/backend_wayland_pointer.c.o
+[190/315] Compiling C object libwlroots.a.p/types_output_render.c.o
+[191/315] Compiling C object libwlroots.a.p/backend_headless_output.c.o
+[192/315] Compiling C object libwlroots.a.p/types_data_device_wlr_data_offer.c.o
+[193/315] Compiling C object libwlroots.a.p/types_data_device_wlr_data_device.c.o
+[194/315] Compiling C object libwlroots.a.p/types_output_swapchain.c.o
+[195/315] Compiling C object libwlroots.a.p/backend_wayland_backend.c.o
+[196/315] Compiling C object libwlroots.a.p/types_scene_drag_icon.c.o
+[197/315] Compiling C object libwlroots.a.p/types_scene_output_layout.c.o
+[198/315] Compiling C object libwlroots.a.p/types_output_cursor.c.o
+[199/315] Compiling C object libwlroots.a.p/types_data_device_wlr_drag.c.o
+[200/315] Compiling C object libwlroots.a.p/types_scene_layer_shell_v1.c.o
+[201/315] Compiling C object libwlroots.a.p/types_data_device_wlr_data_source.c.o
+[202/315] Compiling C object libwlroots.a.p/types_scene_xdg_shell.c.o
+[203/315] Compiling C object libwlroots.a.p/meson-generated_.._backend_drm_pnpids.c.o
+[204/315] Compiling C object libwlroots.a.p/types_scene_surface.c.o
+[205/315] Compiling C object libwlroots.a.p/types_scene_subsurface_tree.c.o
+[206/315] Compiling C object libwlroots.a.p/backend_wayland_tablet_v2.c.o
+[207/315] Compiling C object libwlroots.a.p/backend_wayland_output.c.o
+[208/315] Compiling C object libwlroots.a.p/types_buffer_dmabuf.c.o
+[209/315] Compiling C object libwlroots.a.p/types_output_output.c.o
+[210/315] Compiling C object libwlroots.a.p/types_tablet_v2_wlr_tablet_v2_tablet.c.o
+[211/315] Compiling C object libwlroots.a.p/types_tablet_v2_wlr_tablet_v2.c.o
+[212/315] Compiling C object libwlroots.a.p/types_seat_wlr_seat.c.o
+[213/315] Compiling C object libwlroots.a.p/types_xdg_shell_wlr_xdg_shell.c.o
+[214/315] Compiling C object libwlroots.a.p/types_seat_wlr_seat_pointer.c.o
+[215/315] Compiling C object libwlroots.a.p/types_buffer_resource.c.o
+[216/315] Compiling C object libwlroots.a.p/types_xdg_shell_wlr_xdg_positioner.c.o
+[217/315] Compiling C object libwlroots.a.p/types_buffer_readonly_data.c.o
+[218/315] Compiling C object libwlroots.a.p/types_buffer_buffer.c.o
+[219/315] Compiling C object libwlroots.a.p/types_seat_wlr_seat_touch.c.o
+[220/315] Compiling C object libwlroots.a.p/types_buffer_client.c.o
+[221/315] Compiling C object libwlroots.a.p/types_seat_wlr_seat_keyboard.c.o
+[222/315] Compiling C object libwlroots.a.p/types_wlr_cursor_shape_v1.c.o
+[223/315] Compiling C object libwlroots.a.p/types_xdg_shell_wlr_xdg_popup.c.o
+[224/315] Compiling C object libwlroots.a.p/types_wlr_content_type_v1.c.o
+[225/315] Compiling C object libwlroots.a.p/types_wlr_damage_ring.c.o
+[226/315] Compiling C object libwlroots.a.p/types_tablet_v2_wlr_tablet_v2_tool.c.o
+[227/315] Compiling C object libwlroots.a.p/types_xdg_shell_wlr_xdg_surface.c.o
+[228/315] Compiling C object libwlroots.a.p/types_tablet_v2_wlr_tablet_v2_pad.c.o
+[229/315] Compiling C object libwlroots.a.p/types_xdg_shell_wlr_xdg_toplevel.c.o
+[230/315] Compiling C object libwlroots.a.p/types_wlr_input_device.c.o
+[231/315] Compiling C object libwlroots.a.p/types_wlr_fullscreen_shell_v1.c.o
+[232/315] Compiling C object libwlroots.a.p/types_wlr_drm.c.o
+[233/315] Compiling C object libwlroots.a.p/types_wlr_idle_inhibit_v1.c.o
+[234/315] Compiling C object libwlroots.a.p/types_wlr_export_dmabuf_v1.c.o
+[235/315] Compiling C object libwlroots.a.p/types_wlr_ext_foreign_toplevel_list_v1.c.o
+[236/315] Compiling C object libwlroots.a.p/types_wlr_gamma_control_v1.c.o
+[237/315] Compiling C object libwlroots.a.p/types_wlr_keyboard_shortcuts_inhibit_v1.c.o
+[238/315] Compiling C object libwlroots.a.p/types_wlr_keyboard_group.c.o
+[239/315] Compiling C object libwlroots.a.p/types_wlr_output_layer.c.o
+[240/315] Compiling C object libwlroots.a.p/types_wlr_keyboard.c.o
+[241/315] Compiling C object libwlroots.a.p/types_wlr_matrix.c.o
+[242/315] Compiling C object libwlroots.a.p/types_wlr_pointer.c.o
+[243/315] Compiling C object libwlroots.a.p/types_wlr_idle_notify_v1.c.o
+[244/315] Compiling C object libwlroots.a.p/types_wlr_foreign_toplevel_management_v1.c.o
+[245/315] Compiling C object libwlroots.a.p/types_wlr_input_method_v2.c.o
+[246/315] Compiling C object libwlroots.a.p/types_wlr_output_power_management_v1.c.o
+[247/315] Compiling C object libwlroots.a.p/backend_drm_drm.c.o
+[248/315] Compiling C object libwlroots.a.p/types_wlr_data_control_v1.c.o
+[249/315] Compiling C object libwlroots.a.p/types_wlr_layer_shell_v1.c.o
+[250/315] Compiling C object libwlroots.a.p/types_wlr_output_swapchain_manager.c.o
+[251/315] Compiling C object libwlroots.a.p/types_wlr_pointer_constraints_v1.c.o
+[252/315] Compiling C object libwlroots.a.p/types_wlr_output_layout.c.o
+[253/315] Compiling C object libwlroots.a.p/types_wlr_primary_selection.c.o
+[254/315] Compiling C object libwlroots.a.p/types_wlr_presentation_time.c.o
+[255/315] Compiling C object libwlroots.a.p/types_wlr_pointer_gestures_v1.c.o
+[256/315] Compiling C object libwlroots.a.p/types_wlr_compositor.c.o
+[257/315] Compiling C object libwlroots.a.p/types_wlr_region.c.o
+[258/315] Compiling C object libwlroots.a.p/types_wlr_cursor.c.o
+[259/315] Compiling C object libwlroots.a.p/types_wlr_server_decoration.c.o
+[260/315] Compiling C object libwlroots.a.p/types_wlr_relative_pointer_v1.c.o
+[261/315] Compiling C object libwlroots.a.p/types_wlr_primary_selection_v1.c.o
+[262/315] Compiling C object libwlroots.a.p/types_wlr_tablet_pad.c.o
+[263/315] Compiling C object libwlroots.a.p/types_wlr_single_pixel_buffer_v1.c.o
+[264/315] Compiling C object libwlroots.a.p/types_wlr_switch.c.o
+[265/315] Compiling C object libwlroots.a.p/types_wlr_tablet_tool.c.o
+[266/315] Compiling C object libwlroots.a.p/types_wlr_security_context_v1.c.o
+[267/315] Compiling C object libwlroots.a.p/types_wlr_session_lock_v1.c.o
+[268/315] Compiling C object libwlroots.a.p/types_wlr_touch.c.o
+[269/315] Compiling C object libwlroots.a.p/types_wlr_fractional_scale_v1.c.o
+[270/315] Compiling C object libwlroots.a.p/types_wlr_output_management_v1.c.o
+[271/315] Compiling C object libwlroots.a.p/types_wlr_transient_seat_v1.c.o
+[272/315] Compiling C object libwlroots.a.p/types_wlr_screencopy_v1.c.o
+[273/315] Compiling C object libwlroots.a.p/types_scene_wlr_scene.c.o
+[274/315] Compiling C object libwlroots.a.p/types_wlr_linux_dmabuf_v1.c.o
+[275/315] Compiling C object libwlroots.a.p/types_wlr_subcompositor.c.o
+[276/315] Compiling C object libwlroots.a.p/types_wlr_xcursor_manager.c.o
+[277/315] Compiling C object libwlroots.a.p/types_wlr_virtual_keyboard_v1.c.o
+[278/315] Compiling C object libwlroots.a.p/types_wlr_shm.c.o
+[279/315] Compiling C object libwlroots.a.p/types_wlr_text_input_v3.c.o
+[280/315] Compiling C object libwlroots.a.p/types_wlr_viewporter.c.o
+[281/315] Compiling C object libwlroots.a.p/types_wlr_xdg_decoration_v1.c.o
+[282/315] Compiling C object libwlroots.a.p/types_wlr_virtual_pointer_v1.c.o
+[283/315] Compiling C object libwlroots.a.p/util_addon.c.o
+[284/315] Compiling C object libwlroots.a.p/types_wlr_xdg_foreign_registry.c.o
+[285/315] Compiling C object libwlroots.a.p/util_array.c.o
+[286/315] Compiling C object libwlroots.a.p/util_env.c.o
+[287/315] Compiling C object libwlroots.a.p/types_wlr_xdg_activation_v1.c.o
+[288/315] Compiling C object libwlroots.a.p/types_wlr_xdg_output_v1.c.o
+[289/315] Compiling C object libwlroots.a.p/util_set.c.o
+[290/315] Compiling C object libwlroots.a.p/util_global.c.o
+[291/315] Compiling C object libwlroots.a.p/types_wlr_tearing_control_v1.c.o
+[292/315] Compiling C object libwlroots.a.p/types_wlr_xdg_foreign_v1.c.o
+[293/315] Compiling C object libwlroots.a.p/util_log.c.o
+[294/315] Compiling C object libwlroots.a.p/util_box.c.o
+[295/315] Compiling C object libwlroots.a.p/util_token.c.o
+[296/315] Compiling C object libwlroots.a.p/util_rect_union.c.o
+[297/315] Compiling C object libwlroots.a.p/util_transform.c.o
+[298/315] Compiling C object libwlroots.a.p/util_time.c.o
+[299/315] Compiling C object libwlroots.a.p/types_wlr_xdg_foreign_v2.c.o
+[300/315] Compiling C object libwlroots.a.p/util_utf8.c.o
+[301/315] Compiling C object libwlroots.a.p/util_shm.c.o
+[302/315] Compiling C object libwlroots.a.p/xcursor_wlr_xcursor.c.o
+[303/315] Compiling C object libwlroots.a.p/xwayland_shell.c.o
+[304/315] Compiling C object libwlroots.a.p/util_region.c.o
+[305/315] Compiling C object libwlroots.a.p/xwayland_selection_dnd.c.o
+[306/315] Compiling C object libwlroots.a.p/xwayland_sockets.c.o
+[307/315] Compiling C object libwlroots.a.p/xwayland_xwayland.c.o
+[308/315] Compiling C object libwlroots.a.p/types_wlr_drm_lease_v1.c.o
+[309/315] Compiling C object libwlroots.a.p/xcursor_xcursor.c.o
+[310/315] Compiling C object libwlroots.a.p/xwayland_selection_selection.c.o
+[311/315] Compiling C object libwlroots.a.p/xwayland_selection_incoming.c.o
+[312/315] Compiling C object libwlroots.a.p/xwayland_server.c.o
+[313/315] Compiling C object libwlroots.a.p/xwayland_selection_outgoing.c.o
+[314/315] Compiling C object libwlroots.a.p/xwayland_xwm.c.o
+[315/315] Linking static target libwlroots.a
+[18/120] Performing install step for 'wlroots-hyprland'
+wlroots-hyprland: install not needed
+[19/120] Completed 'wlroots-hyprland'
+[20/120] Building C object CMakeFiles/Hyprland.dir/protocols/idle-protocol.c.o
+[21/120] Building C object CMakeFiles/Hyprland.dir/protocols/pointer-constraints-unstable-v1-protocol.c.o
+[22/120] Building C object CMakeFiles/Hyprland.dir/protocols/wlr-layer-shell-unstable-v1-protocol.c.o
+[23/120] Building C object CMakeFiles/Hyprland.dir/protocols/tablet-unstable-v2-protocol.c.o
+[24/120] Building C object CMakeFiles/Hyprland.dir/protocols/wlr-screencopy-unstable-v1-protocol.c.o
+[25/120] Building C object CMakeFiles/Hyprland.dir/protocols/hyprland-global-shortcuts-v1-protocol.c.o
+[26/120] Building C object CMakeFiles/Hyprland.dir/protocols/tearing-control-v1-protocol.c.o
+[27/120] Building C object CMakeFiles/Hyprland.dir/protocols/linux-dmabuf-unstable-v1-protocol.c.o
+[28/120] Building C object CMakeFiles/Hyprland.dir/protocols/cursor-shape-v1-protocol.c.o
+[29/120] Building C object CMakeFiles/Hyprland.dir/protocols/wlr-output-power-management-unstable-v1-protocol.c.o
+[30/120] Building C object CMakeFiles/Hyprland.dir/protocols/wlr-foreign-toplevel-management-unstable-v1-protocol.c.o
+[31/120] Building C object CMakeFiles/Hyprland.dir/protocols/xdg-output-unstable-v1-protocol.c.o
+[32/120] Building C object CMakeFiles/Hyprland.dir/protocols/fractional-scale-v1-protocol.c.o
+[33/120] Building C object CMakeFiles/Hyprland.dir/protocols/text-input-unstable-v1-protocol.c.o
+[34/120] Building C object CMakeFiles/Hyprland.dir/protocols/hyprland-toplevel-export-v1-protocol.c.o
+[35/120] Building C object CMakeFiles/Hyprland.dir/protocols/xdg-shell-protocol.c.o
+[36/120] Building CXX object hyprpm/CMakeFiles/hyprpm.dir/src/core/PluginManager.cpp.o
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/hyprpm/src/core/PluginManager.cpp: In function ‘std::string execAndGet(std::string)’:
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/hyprpm/src/core/PluginManager.cpp:40:50: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+   40 |     const std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd.c_str(), "r"), pclose);
+      |                                                  ^
+[37/120] Linking CXX executable hyprpm/hyprpm
+[38/120] Building CXX object hyprctl/CMakeFiles/hyprctl.dir/main.cpp.o
+[39/120] Linking CXX executable hyprctl/hyprctl
+[40/120] Building CXX object CMakeFiles/Hyprland.dir/cmake_pch.hxx.gch
+[41/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/Box.cpp.o
+[42/120] Building CXX object CMakeFiles/Hyprland.dir/src/desktop/WLSurface.cpp.o
+[43/120] Building CXX object CMakeFiles/Hyprland.dir/src/debug/Log.cpp.o
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/debug/Log.cpp: In function ‘void Debug::wlrLog(wlr_log_importance, const char*, __va_list_tag*)’:
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/debug/Log.cpp:18:14: warning: ignoring return value of ‘int vasprintf(char**, const char*, __va_list_tag*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   18 |     vasprintf(&outputStr, fmt, args);
+      |     ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+[44/120] Building CXX object CMakeFiles/Hyprland.dir/src/debug/HyprDebugOverlay.cpp.o
+[45/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/AnimatedVariable.cpp.o
+[46/120] Building CXX object CMakeFiles/Hyprland.dir/src/desktop/Constraint.cpp.o
+[47/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/Color.cpp.o
+[48/120] Building CXX object CMakeFiles/Hyprland.dir/src/debug/HyprNotificationOverlay.cpp.o
+[49/120] Building CXX object CMakeFiles/Hyprland.dir/src/events/Monitors.cpp.o
+[50/120] Building CXX object CMakeFiles/Hyprland.dir/src/events/Misc.cpp.o
+[51/120] Building CXX object CMakeFiles/Hyprland.dir/src/debug/CrashReporter.cpp.o
+[52/120] Building CXX object CMakeFiles/Hyprland.dir/src/desktop/Workspace.cpp.o
+[53/120] Building CXX object CMakeFiles/Hyprland.dir/src/desktop/Popup.cpp.o
+[54/120] Building CXX object CMakeFiles/Hyprland.dir/src/events/Devices.cpp.o
+[55/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/BezierCurve.cpp.o
+[56/120] Building CXX object CMakeFiles/Hyprland.dir/src/events/Layers.cpp.o
+[57/120] Building CXX object CMakeFiles/Hyprland.dir/src/desktop/Subsurface.cpp.o
+[58/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/VarList.cpp.o
+[59/120] Building CXX object CMakeFiles/Hyprland.dir/src/desktop/Window.cpp.o
+[60/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/Timer.cpp.o
+[61/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/Region.cpp.o
+[62/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/Vector2D.cpp.o
+[63/120] Building CXX object CMakeFiles/Hyprland.dir/src/debug/HyprCtl.cpp.o
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/debug/HyprCtl.cpp: In function ‘int hyprCtlFDTick(int, uint32_t, void*)’:
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/debug/HyprCtl.cpp:1728:10: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1728 |     write(ACCEPTEDCONNECTION, reply.c_str(), reply.length());
+      |     ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[64/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/Watchdog.cpp.o
+[65/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/MiscFunctions.cpp.o
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/helpers/MiscFunctions.cpp: In function ‘std::string execAndGet(const char*)’:
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/helpers/MiscFunctions.cpp:573:50: warning: ignoring attributes on template argument ‘int (*)(FILE*)’ [-Wignored-attributes]
+  573 |     const std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
+      |                                                  ^
+[66/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/WLListener.cpp.o
+[67/120] Building CXX object CMakeFiles/Hyprland.dir/src/hyprerror/HyprError.cpp.o
+[68/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/WLClasses.cpp.o
+[69/120] Building CXX object CMakeFiles/Hyprland.dir/src/init/initHelpers.cpp.o
+[70/120] Building CXX object CMakeFiles/Hyprland.dir/src/main.cpp.o
+[71/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/AnimationManager.cpp.o
+[72/120] Building CXX object CMakeFiles/Hyprland.dir/src/layout/DwindleLayout.cpp.o
+[73/120] Building CXX object CMakeFiles/Hyprland.dir/src/layout/IHyprLayout.cpp.o
+[74/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/CursorManager.cpp.o
+[75/120] Building CXX object CMakeFiles/Hyprland.dir/src/helpers/Monitor.cpp.o
+[76/120] Building CXX object CMakeFiles/Hyprland.dir/src/layout/MasterLayout.cpp.o
+[77/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/ProtocolManager.cpp.o
+[78/120] Building CXX object CMakeFiles/Hyprland.dir/src/events/Windows.cpp.o
+[79/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/LayoutManager.cpp.o
+[80/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/HookSystemManager.cpp.o
+[81/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/EventManager.cpp.o
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/managers/EventManager.cpp: In member function ‘void CEventManager::flushEvents()’:
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/managers/EventManager.cpp:125:22: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  125 |                 write(fd.first, eventString.c_str(), eventString.length());
+      |                 ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[82/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/ThreadManager.cpp.o
+[83/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/SessionLockManager.cpp.o
+[84/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/eventLoop/EventLoopManager.cpp.o
+[85/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/eventLoop/EventLoopTimer.cpp.o
+[86/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/XWaylandManager.cpp.o
+[87/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/input/IdleInhibitor.cpp.o
+[88/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/input/InputMethodPopup.cpp.o
+[89/120] Building CXX object CMakeFiles/Hyprland.dir/src/Compositor.cpp.o
+[90/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/input/TextInput.cpp.o
+[91/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/input/Touch.cpp.o
+[92/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/input/Swipe.cpp.o
+[93/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/input/InputMethodRelay.cpp.o
+[94/120] Building CXX object CMakeFiles/Hyprland.dir/src/plugins/PluginSystem.cpp.o
+[95/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/KeybindManager.cpp.o
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/managers/KeybindManager.cpp: In static member function ‘static uint64_t CKeybindManager::spawnRaw(std::string)’:
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/managers/KeybindManager.cpp:800:14: warning: ignoring return value of ‘ssize_t write(int, const void*, size_t)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  800 |         write(socket[1], &grandchild, sizeof(grandchild));
+      |         ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/kaustubh/Ubuntu-Hyprland-24.04/Hyprland/src/managers/KeybindManager.cpp:807:9: warning: ignoring return value of ‘ssize_t read(int, void*, size_t)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  807 |     read(socket[0], &grandchild, sizeof(grandchild));
+      |     ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[96/120] Building CXX object CMakeFiles/Hyprland.dir/src/config/ConfigManager.cpp.o
+[97/120] Building CXX object CMakeFiles/Hyprland.dir/src/plugins/HookSystem.cpp.o
+[98/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/input/Tablets.cpp.o
+[99/120] Building CXX object CMakeFiles/Hyprland.dir/src/protocols/FractionalScale.cpp.o
+[100/120] Building CXX object CMakeFiles/Hyprland.dir/src/protocols/TextInputV1.cpp.o
+[101/120] Building CXX object CMakeFiles/Hyprland.dir/src/protocols/GlobalShortcuts.cpp.o
+[102/120] Building CXX object CMakeFiles/Hyprland.dir/src/managers/input/InputManager.cpp.o
+[103/120] Building CXX object CMakeFiles/Hyprland.dir/src/plugins/PluginAPI.cpp.o
+[104/120] Building CXX object CMakeFiles/Hyprland.dir/src/protocols/ToplevelExport.cpp.o
+[105/120] Building CXX object CMakeFiles/Hyprland.dir/src/protocols/Screencopy.cpp.o
+[106/120] Building CXX object CMakeFiles/Hyprland.dir/src/protocols/WaylandProtocol.cpp.o
+[107/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/Renderbuffer.cpp.o
+[108/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/Framebuffer.cpp.o
+[109/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/Shader.cpp.o
+[110/120] Building CXX object CMakeFiles/Hyprland.dir/src/protocols/XDGOutput.cpp.o
+[111/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/Transformer.cpp.o
+[112/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/Texture.cpp.o
+[113/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/decorations/CHyprDropShadowDecoration.cpp.o
+[114/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/decorations/CHyprBorderDecoration.cpp.o
+[115/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/decorations/IHyprWindowDecoration.cpp.o
+[116/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/decorations/CHyprGroupBarDecoration.cpp.o
+[117/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/decorations/DecorationPositioner.cpp.o
+[118/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/OpenGL.cpp.o
+[119/120] Building CXX object CMakeFiles/Hyprland.dir/src/render/Renderer.cpp.o
+[120/120] Linking CXX executable Hyprland
+[34m[INFO](B[m Installing Hyprland...
+ninja: Entering directory `build'
+[0/2] Re-checking globbed directories...
+ninja: error: unknown target 'install'
+[31m[ERROR](B[m Installation failed.

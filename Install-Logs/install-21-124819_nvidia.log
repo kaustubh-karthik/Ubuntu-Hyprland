@@ -1,0 +1,32 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  nvidia-vaapi-driver
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 35.0 kB of archives.
+After this operation, 96.3 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 nvidia-vaapi-driver amd64 0.0.8-1 [35.0 kB]
+Fetched 35.0 kB in 0s (989 kB/s)
+Selecting previously unselected package nvidia-vaapi-driver:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 239595 files and directories currently installed.)
+Preparing to unpack .../nvidia-vaapi-driver_0.0.8-1_amd64.deb ...
+Unpacking nvidia-vaapi-driver:amd64 (0.0.8-1) ...
+Setting up nvidia-vaapi-driver:amd64 (0.0.8-1) ...
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.11.0-26-generic
+Found initrd image: /boot/initrd.img-6.11.0-26-generic
+Found memtest86+ 64bit EFI image: /boot/memtest86+x64.efi
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Adding nvidia nvidia_modeset nvidia_uvm nvidia_drm to /etc/initramfs-tools/modules
+update-initramfs: Generating /boot/initrd.img-6.11.0-26-generic
+W: initramfs-tools configuration sets RESUME=UUID=ad38fbd3-20a3-4a7e-b0be-834036f9e8c4
+W: but no matching swap device is available.

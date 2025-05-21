@@ -1,0 +1,204 @@
+👌 [32m[OK](B[m 🇵🇭 [35mKooL..(B[m [36mlets continue with the installation...(B[m
+🔙 Returning to options...
+👌 [32m[OK](B[m You confirmed your choices. Proceeding with [36mKooL 🇵🇭 Hyprland Installation...(B[m
+[34m[INFO](B[m Running a [36mfull system update...(B[m
+[34m[INFO](B[m Installing [36mnecessary dependencies...(B[m
+
+[33m[NOTE](B[m - Installing [36mmain dependencies....(B[m 
+[34m[INFO](B[m [35mbuild-essential(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mcmake(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mcmake-extras(B[m ...[34m[INFO](B[m Installing [33mcmake-extras(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mcmake-extras(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mcmake-extras(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mcmake-extras(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mcmake-extras(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mcmake-extras(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mcmake-extras(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mcmake-extras(B[m has been successfully installed!
+[34m[INFO](B[m [35mcurl(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mfindutils(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mgawk(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mgettext(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mgir1.2-graphene-1.0(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mgit(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mglslang-tools(B[m ...[34m[INFO](B[m Installing [33mglslang-tools(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○○○○○○○○●○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○○○○○○○○○●[34m[INFO](B[m Installing [33mglslang-tools(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mglslang-tools(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mglslang-tools(B[m has been successfully installed!
+[34m[INFO](B[m [35mgobject-introspection(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mgolang(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mhwdata(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mjq(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibavcodec-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibavformat-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibavutil-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibcairo2-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibdeflate-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibdisplay-info-dev(B[m ...[34m[INFO](B[m Installing [33mlibdisplay-info-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibdisplay-info-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibdisplay-info-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibdisplay-info-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibdisplay-info-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibdisplay-info-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibdisplay-info-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibdisplay-info-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibdrm-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibegl-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibegl1-mesa-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibgbm-dev(B[m ...[34m[INFO](B[m Installing [33mlibgbm-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibgbm-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibgbm-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibgbm-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibgbm-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibgbm-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibgbm-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibgdk-pixbuf-2.0-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibgdk-pixbuf2.0-bin(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ...[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ○○○○○○○○●○[34m[INFO](B[m Installing [33mlibgirepository1.0-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibgirepository1.0-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibgl1-mesa-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibgraphene-1.0-0(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibgraphene-1.0-dev(B[m ...[34m[INFO](B[m Installing [33mlibgraphene-1.0-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibgraphene-1.0-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibgraphene-1.0-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibgraphene-1.0-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibgraphene-1.0-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibgraphene-1.0-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibgraphene-1.0-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibgtk-3-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibgulkan-dev(B[m ...[34m[INFO](B[m Installing [33mlibgulkan-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibgulkan-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibgulkan-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibgulkan-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibgulkan-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibgulkan-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibgulkan-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibgulkan-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibinih-dev(B[m ...[34m[INFO](B[m Installing [33mlibinih-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibinih-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibinih-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibinih-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibinih-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibinih-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibinih-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibinput-dev(B[m ...[34m[INFO](B[m Installing [33mlibinput-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibinput-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibinput-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibinput-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibinput-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibinput-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibinput-dev(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mlibinput-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibinput-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibjbig-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibjpeg-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ...[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ○○○○○○○○●○[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ○○○○○○○○○●[34m[INFO](B[m Installing [33mlibjpeg62-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibjpeg62-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mliblerc-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibliftoff-dev(B[m ...[34m[INFO](B[m Installing [33mlibliftoff-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibliftoff-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibliftoff-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibliftoff-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibliftoff-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibliftoff-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibliftoff-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mliblzma-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibnotify-bin(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibpam0g-dev(B[m ...[34m[INFO](B[m Installing [33mlibpam0g-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibpam0g-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibpam0g-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibpam0g-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibpam0g-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibpam0g-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibpam0g-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibpam0g-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibpango1.0-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibpipewire-0.3-dev(B[m ...[34m[INFO](B[m Installing [33mlibpipewire-0.3-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibpipewire-0.3-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibpipewire-0.3-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibpipewire-0.3-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibpipewire-0.3-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibpipewire-0.3-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibpipewire-0.3-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ...[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○○○○○●○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○○○○○○●[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mlibqt6svg6(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibqt6svg6(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibseat-dev(B[m ...[34m[INFO](B[m Installing [33mlibseat-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibseat-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibseat-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibseat-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibseat-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibseat-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibseat-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibseat-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibstartup-notification0-dev(B[m ...[34m[INFO](B[m Installing [33mlibstartup-notification0-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibstartup-notification0-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibstartup-notification0-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibstartup-notification0-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibstartup-notification0-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibstartup-notification0-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibstartup-notification0-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibswresample-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibsystemd-dev(B[m ...[34m[INFO](B[m Installing [33mlibsystemd-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibsystemd-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibsystemd-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibsystemd-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibsystemd-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibsystemd-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibsystemd-dev(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mlibsystemd-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibsystemd-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibtiff-dev(B[m ...[34m[INFO](B[m Installing [33mlibtiff-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibtiff-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibtiff-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibtiff-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibtiff-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibtiff-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibtiff-dev(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mlibtiff-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibtiff-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibtiffxx6(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibtomlplusplus-dev(B[m ...[34m[INFO](B[m Installing [33mlibtomlplusplus-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibtomlplusplus-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibtomlplusplus-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibtomlplusplus-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibtomlplusplus-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibtomlplusplus-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibtomlplusplus-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibtomlplusplus-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibudev-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibvkfft-dev(B[m ...[34m[INFO](B[m Installing [33mlibvkfft-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibvkfft-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibvkfft-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibvkfft-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibvkfft-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibvkfft-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibvkfft-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibvulkan-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibvulkan-volk-dev(B[m ...[34m[INFO](B[m Installing [33mlibvulkan-volk-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibvulkan-volk-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibvulkan-volk-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibvulkan-volk-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibvulkan-volk-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibvulkan-volk-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibvulkan-volk-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibwayland-dev(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mlibwebp-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibxcb-composite0-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-composite0-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-composite0-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-composite0-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-composite0-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-composite0-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-composite0-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-composite0-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-composite0-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxcb-cursor-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-cursor-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-cursor-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-cursor-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-cursor-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-cursor-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-cursor-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-cursor-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-cursor-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxcb-dri3-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-dri3-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-dri3-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-dri3-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-dri3-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-dri3-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-dri3-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-dri3-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxcb-ewmh-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-ewmh-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-ewmh-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-ewmh-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-ewmh-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-ewmh-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-ewmh-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-ewmh-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxcb-icccm4-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-icccm4-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-icccm4-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-icccm4-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-icccm4-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-icccm4-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-icccm4-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-icccm4-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxcb-present-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-present-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-present-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-present-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-present-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-present-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-present-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-present-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibxcb-render-util0-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibxcb-res0-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-res0-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-res0-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-res0-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-res0-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-res0-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-res0-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-res0-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-res0-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxcb-util-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-util-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-util-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-util-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-util-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-util-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-util-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-util-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxcb-xinerama0-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-xinerama0-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xinerama0-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xinerama0-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xinerama0-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xinerama0-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-xinerama0-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-xinerama0-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxcb-xinput-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-xinput-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xinput-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xinput-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xinput-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xinput-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-xinput-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-xinput-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxcb-xkb-dev(B[m ...[34m[INFO](B[m Installing [33mlibxcb-xkb-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xkb-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xkb-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xkb-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxcb-xkb-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxcb-xkb-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxcb-xkb-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibxkbcommon-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibxkbcommon-x11-dev(B[m ...[34m[INFO](B[m Installing [33mlibxkbcommon-x11-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxkbcommon-x11-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxkbcommon-x11-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxkbcommon-x11-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxkbcommon-x11-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxkbcommon-x11-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxkbcommon-x11-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mlibxkbregistry-dev(B[m ...[34m[INFO](B[m Installing [33mlibxkbregistry-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxkbregistry-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxkbregistry-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxkbregistry-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxkbregistry-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxkbregistry-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxkbregistry-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mlibxml2-dev(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mlibxxhash-dev(B[m ...[34m[INFO](B[m Installing [33mlibxxhash-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mlibxxhash-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mlibxxhash-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mlibxxhash-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mlibxxhash-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mlibxxhash-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mlibxxhash-dev(B[m has been successfully installed!
+[34m[INFO](B[m [35mmake(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mmeson(B[m ...[34m[INFO](B[m Installing [33mmeson(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mmeson(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mmeson(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mmeson(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mmeson(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mmeson(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mmeson(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mmeson(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mmeson(B[m ○○○○○○○○●○[34m[INFO](B[m Installing [33mmeson(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mmeson(B[m has been successfully installed!
+[34m[INFO](B[m [35mninja-build(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mopenssl(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mpsmisc(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mpython3-mako(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mpython3-markdown(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mpython3-markupsafe(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mpython3-yaml(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ...[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ○○○○○○○○●○[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ○○○○○○○○○●[34m[INFO](B[m Installing [33mpython3-pyquery(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mpython3-pyquery(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ...[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○○○○○○○○●○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○○○○○○○○○●[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mqt6-base-dev(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mqt6-base-dev(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mscdoc(B[m ...[34m[INFO](B[m Installing [33mscdoc(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mscdoc(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mscdoc(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mscdoc(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mscdoc(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mscdoc(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mscdoc(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mscdoc(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mscdoc(B[m has been successfully installed!
+[?25l[34m[INFO](B[m Installing [33mseatd(B[m ...[34m[INFO](B[m Installing [33mseatd(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mseatd(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mseatd(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mseatd(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mseatd(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mseatd(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mseatd(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mseatd(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mseatd(B[m ○○○○○○○○●○[34m[INFO](B[m Installing [33mseatd(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mseatd(B[m has been successfully installed!
+[34m[INFO](B[m [35mspirv-tools(B[m is already installed. Skipping...
+[34m[INFO](B[m [35munzip(B[m is already installed. Skipping...
+[?25l[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ...[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ○●○○○○○○○○[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ○○●○○○○○○○[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ○○○●○○○○○○[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ○○○○●○○○○[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ○○○○○●○○○○[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ○○○○○○●○○○[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ○○○○○○○●○○[34m[INFO](B[m Installing [33mvulkan-validationlayers(B[m ... Done!                     
+
+[?12l[?25h[1A[K[32m[OK](B[m Package [33mvulkan-validationlayers(B[m has been successfully installed!
+[34m[INFO](B[m [35mwayland-protocols(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mxdg-desktop-portal(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mxwayland(B[m is already installed. Skipping...
+[34m[INFO](B[m [35mbc(B[m is already installed. Skipping...
+
+[34m[INFO](B[m building dependencies for [35mwlroots(B[m 
+[?25l[34m[INFO](B[m Installing [33mwlroots(B[m ...[34m[INFO](B[m Installing [33mwlroots(B[m ●○○○○○○○○○[34m[INFO](B[m Installing [33mwlroots(B[m ... Done!                     
+
+[?12l[?25h
+
+[34m[INFO](B[m Installing [36mnecessary fonts...(B[m
+[34m[INFO](B[m Installing [36mKooL Hyprland packages...(B[m
+[34m[INFO](B[mConfiguring [36mnvidia stuff(B[m
+[34m[INFO](B[mAdding user into [36minput group...(B[m
+[34m[INFO](B[mInstalling [36mGTK themes...(B[m
+[34m[INFO](B[mConfiguring [36mBluetooth...(B[m
+[34m[INFO](B[mInstalling [36mxdg-desktop-portal-hyprland...(B[m
+[34m[INFO](B[mInstalling pre-configured [36mKooL Hyprland dotfiles...(B[m
+JetBrainsMono.tar.xz found. Deleting...
+JetBrainsMono.tar.xz deleted successfully.
+VictorMonoAll.zip found. Deleting...
+VictorMonoAll.zip deleted successfully.
+FantasqueSansMono.zip found. Deleting...
+FantasqueSansMono.zip deleted successfully.

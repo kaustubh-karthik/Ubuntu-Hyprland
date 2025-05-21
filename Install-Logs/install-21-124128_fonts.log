@@ -1,0 +1,250 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  fonts-firacode
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 1,514 kB of archives.
+After this operation, 3,005 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-firacode all 6.2-2 [1,514 kB]
+Fetched 1,514 kB in 0s (6,680 kB/s)
+Selecting previously unselected package fonts-firacode.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 233112 files and directories currently installed.)
+Preparing to unpack .../fonts-firacode_6.2-2_all.deb ...
+Unpacking fonts-firacode (6.2-2) ...
+Setting up fonts-firacode (6.2-2) ...
+Processing triggers for fontconfig (2.15.0-1.1ubuntu2) ...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  gdal-data gdal-plugins libaec-dev libaec0 libarmadillo12 libarpack2t64
+  libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavcodec-dev
+  libavformat-dev libavutil-dev libblosc1 libbrotli-dev libbz2-dev
+  libcairo2-dev libcfitsio10t64 libcharls2 libcurl4-openssl-dev libdatrie-dev
+  libdbus-1-dev libdc1394-dev libegl1-mesa-dev libepoxy-dev libexif-dev
+  libexif-doc libflann1.9 libfontconfig-dev libfreetype-dev libfreexl1
+  libfribidi-dev libfyba0t64 libgdal34t64 libgdcm-dev libgdcm3.0t64
+  libgeos-c1t64 libgeos3.12.1t64 libgeotiff5 libgl2ps1.4 libgphoto2-dev
+  libgraphite2-dev libgulkan-0.15-0t64 libharfbuzz-cairo0 libharfbuzz-dev
+  libharfbuzz-subset0 libhdf4-0-alt libhdf5-103-1t64 libhdf5-hl-100t64
+  libhdf5-openmpi-103-1t64 libhdf5-openmpi-cpp-103-1t64
+  libhdf5-openmpi-fortran-102t64 libhdf5-openmpi-hl-100t64
+  libhdf5-openmpi-hl-cpp-100t64 libhdf5-openmpi-hl-fortran-100t64 libice-dev
+  libimath-dev libjpeg62 libkmlbase1t64 libkmldom1t64 libkmlengine1t64
+  liblept5 liblz4-dev libminizip1t64 libmysqlclient21 libnetcdf19t64 libodbc2
+  libodbcinst2 libogdi4.1 libopencv-calib3d406t64 libopencv-contrib406t64
+  libopencv-core-dev libopencv-core406t64 libopencv-dnn-dev
+  libopencv-dnn406t64 libopencv-features2d406t64 libopencv-flann-dev
+  libopencv-flann406t64 libopencv-highgui406t64 libopencv-imgcodecs-dev
+  libopencv-imgcodecs406t64 libopencv-imgproc-dev libopencv-imgproc406t64
+  libopencv-java libopencv-ml-dev libopencv-ml406t64 libopencv-objdetect406t64
+  libopencv-photo-dev libopencv-photo406t64 libopencv-shape-dev
+  libopencv-shape406t64 libopencv-stitching406t64 libopencv-superres-dev
+  libopencv-superres406t64 libopencv-video-dev libopencv-video406t64
+  libopencv-videoio-dev libopencv-videoio406t64 libopencv-videostab406t64
+  libopencv-viz-dev libopencv-viz406t64 libopencv406-jni libopenexr-dev
+  libpango1.0-dev libpixman-1-dev libpq5 libproj25 libqhull-r8.0
+  libraw1394-dev libraw1394-tools librttopo1 libsm-dev libsocket++1
+  libspatialite8t64 libssl-dev libsuperlu6 libswresample-dev libswscale-dev
+  libsz2 libtesseract5 libthai-dev libtk8.6 liburiparser1 libvtk9.1t64
+  libwayland-bin libwayland-dev libxcomposite-dev libxcursor-dev
+  libxdamage-dev libxerces-c3.2t64 libxfixes-dev libxft-dev libxi-dev
+  libxinerama-dev libxrandr-dev libxrender-dev libxtst-dev mysql-common
+  opencv-data pango1.0-tools proj-bin proj-data unixodbc-common
+  wayland-protocols
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  fonts-font-awesome
+0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
+Need to get 516 kB of archives.
+After this operation, 1,402 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu noble/main amd64 fonts-font-awesome all 5.0.10+really4.7.0~dfsg-4.1 [516 kB]
+Fetched 516 kB in 0s (2,917 kB/s)
+Selecting previously unselected package fonts-font-awesome.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 233138 files and directories currently installed.)
+Preparing to unpack .../fonts-font-awesome_5.0.10+really4.7.0~dfsg-4.1_all.deb ...
+Unpacking fonts-font-awesome (5.0.10+really4.7.0~dfsg-4.1) ...
+Setting up fonts-font-awesome (5.0.10+really4.7.0~dfsg-4.1) ...
+Processing triggers for fontconfig (2.15.0-1.1ubuntu2) ...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 22 6071k   22 1348k    0     0  1143k      0  0:00:05  0:00:01  0:00:04 1143k100 6071k  100 6071k    0     0  3403k      0  0:00:01  0:00:01 --:--:-- 7820k
+FantasqueSansMono installed successfully
+Victor Font installed successfully
+Font directories:
+	/home/kaustubh/.local/share/fonts
+	/usr/share/ubuntu/fonts
+	/usr/share/gnome/fonts
+	/usr/local/share/fonts
+	/usr/share/fonts
+	/var/lib/snapd/desktop/fonts
+	/home/kaustubh/.fonts
+	/home/kaustubh/.local/share/fonts/FantasqueSansMono
+	/home/kaustubh/.local/share/fonts/FantasqueSansMonoNerd
+	/home/kaustubh/.local/share/fonts/JetBrainsMonoNerd
+	/home/kaustubh/.local/share/fonts/VictorMono
+	/usr/share/fonts/X11
+	/usr/share/fonts/cMap
+	/usr/share/fonts/cmap
+	/usr/share/fonts/opentype
+	/usr/share/fonts/truetype
+	/usr/share/fonts/type1
+	/home/kaustubh/.local/share/fonts/VictorMono/EOT
+	/home/kaustubh/.local/share/fonts/VictorMono/OTF
+	/home/kaustubh/.local/share/fonts/VictorMono/TTF
+	/home/kaustubh/.local/share/fonts/VictorMono/WOFF
+	/home/kaustubh/.local/share/fonts/VictorMono/WOFF2
+	/usr/share/fonts/X11/Type1
+	/usr/share/fonts/X11/encodings
+	/usr/share/fonts/X11/misc
+	/usr/share/fonts/X11/util
+	/usr/share/fonts/cmap/adobe-cns1
+	/usr/share/fonts/cmap/adobe-gb1
+	/usr/share/fonts/cmap/adobe-japan1
+	/usr/share/fonts/cmap/adobe-japan2
+	/usr/share/fonts/cmap/adobe-korea1
+	/usr/share/fonts/opentype/font-awesome
+	/usr/share/fonts/opentype/noto
+	/usr/share/fonts/opentype/urw-base35
+	/usr/share/fonts/truetype/dejavu
+	/usr/share/fonts/truetype/droid
+	/usr/share/fonts/truetype/firacode
+	/usr/share/fonts/truetype/font-awesome
+	/usr/share/fonts/truetype/liberation
+	/usr/share/fonts/truetype/msttcorefonts
+	/usr/share/fonts/truetype/noto
+	/usr/share/fonts/truetype/ubuntu
+	/usr/share/fonts/type1/urw-base35
+	/usr/share/fonts/X11/encodings/large
+/home/kaustubh/.local/share/fonts: skipping, existing cache is valid: 0 fonts, 4 dirs
+/home/kaustubh/.local/share/fonts/FantasqueSansMono: skipping, existing cache is valid: 12 fonts, 0 dirs
+/home/kaustubh/.local/share/fonts/FantasqueSansMonoNerd: skipping, existing cache is valid: 0 fonts, 0 dirs
+/home/kaustubh/.local/share/fonts/JetBrainsMonoNerd: skipping, existing cache is valid: 96 fonts, 0 dirs
+/home/kaustubh/.local/share/fonts/VictorMono: skipping, existing cache is valid: 0 fonts, 5 dirs
+/home/kaustubh/.local/share/fonts/VictorMono/EOT: skipping, existing cache is valid: 0 fonts, 0 dirs
+/home/kaustubh/.local/share/fonts/VictorMono/OTF: skipping, existing cache is valid: 21 fonts, 0 dirs
+/home/kaustubh/.local/share/fonts/VictorMono/TTF: skipping, existing cache is valid: 21 fonts, 0 dirs
+/home/kaustubh/.local/share/fonts/VictorMono/WOFF: skipping, existing cache is valid: 21 fonts, 0 dirs
+/home/kaustubh/.local/share/fonts/VictorMono/WOFF2: skipping, existing cache is valid: 21 fonts, 0 dirs
+/usr/share/ubuntu/fonts: skipping, no such directory
+/usr/share/gnome/fonts: skipping, no such directory
+/usr/local/share/fonts: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts: skipping, existing cache is valid: 0 fonts, 6 dirs
+/usr/share/fonts/X11: skipping, existing cache is valid: 0 fonts, 4 dirs
+/usr/share/fonts/X11/Type1: skipping, existing cache is valid: 43 fonts, 0 dirs
+/usr/share/fonts/X11/encodings: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/X11/encodings/large: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/X11/misc: skipping, existing cache is valid: 89 fonts, 0 dirs
+/usr/share/fonts/X11/util: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/cMap: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/cmap: skipping, existing cache is valid: 0 fonts, 5 dirs
+/usr/share/fonts/cmap/adobe-cns1: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-gb1: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-japan1: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-japan2: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/cmap/adobe-korea1: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/opentype: skipping, existing cache is valid: 0 fonts, 3 dirs
+/usr/share/fonts/opentype/font-awesome: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/opentype/noto: skipping, existing cache is valid: 30 fonts, 0 dirs
+/usr/share/fonts/opentype/urw-base35: skipping, existing cache is valid: 35 fonts, 0 dirs
+/usr/share/fonts/truetype: skipping, existing cache is valid: 0 fonts, 8 dirs
+/usr/share/fonts/truetype/dejavu: skipping, existing cache is valid: 8 fonts, 0 dirs
+/usr/share/fonts/truetype/droid: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/firacode: skipping, existing cache is valid: 6 fonts, 0 dirs
+/usr/share/fonts/truetype/font-awesome: skipping, existing cache is valid: 1 fonts, 0 dirs
+/usr/share/fonts/truetype/liberation: skipping, existing cache is valid: 16 fonts, 0 dirs
+/usr/share/fonts/truetype/msttcorefonts: skipping, existing cache is valid: 60 fonts, 0 dirs
+/usr/share/fonts/truetype/noto: skipping, existing cache is valid: 272 fonts, 0 dirs
+/usr/share/fonts/truetype/ubuntu: skipping, existing cache is valid: 232 fonts, 0 dirs
+/usr/share/fonts/type1: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/type1/urw-base35: skipping, existing cache is valid: 35 fonts, 0 dirs
+/var/lib/snapd/desktop/fonts: skipping, no such directory
+/home/kaustubh/.fonts: skipping, no such directory
+/home/kaustubh/.local/share/fonts/FantasqueSansMono: skipping, looped directory detected
+/home/kaustubh/.local/share/fonts/FantasqueSansMonoNerd: skipping, looped directory detected
+/home/kaustubh/.local/share/fonts/JetBrainsMonoNerd: skipping, looped directory detected
+/home/kaustubh/.local/share/fonts/VictorMono: skipping, looped directory detected
+/usr/share/fonts/X11: skipping, looped directory detected
+/usr/share/fonts/cMap: skipping, looped directory detected
+/usr/share/fonts/cmap: skipping, looped directory detected
+/usr/share/fonts/opentype: skipping, looped directory detected
+/usr/share/fonts/truetype: skipping, looped directory detected
+/usr/share/fonts/type1: skipping, looped directory detected
+/home/kaustubh/.local/share/fonts/VictorMono/EOT: skipping, looped directory detected
+/home/kaustubh/.local/share/fonts/VictorMono/OTF: skipping, looped directory detected
+/home/kaustubh/.local/share/fonts/VictorMono/TTF: skipping, looped directory detected
+/home/kaustubh/.local/share/fonts/VictorMono/WOFF: skipping, looped directory detected
+/home/kaustubh/.local/share/fonts/VictorMono/WOFF2: skipping, looped directory detected
+/usr/share/fonts/X11/Type1: skipping, looped directory detected
+/usr/share/fonts/X11/encodings: skipping, looped directory detected
+/usr/share/fonts/X11/misc: skipping, looped directory detected
+/usr/share/fonts/X11/util: skipping, looped directory detected
+/usr/share/fonts/cmap/adobe-cns1: skipping, looped directory detected
+/usr/share/fonts/cmap/adobe-gb1: skipping, looped directory detected
+/usr/share/fonts/cmap/adobe-japan1: skipping, looped directory detected
+/usr/share/fonts/cmap/adobe-japan2: skipping, looped directory detected
+/usr/share/fonts/cmap/adobe-korea1: skipping, looped directory detected
+/usr/share/fonts/opentype/font-awesome: skipping, looped directory detected
+/usr/share/fonts/opentype/noto: skipping, looped directory detected
+/usr/share/fonts/opentype/urw-base35: skipping, looped directory detected
+/usr/share/fonts/truetype/dejavu: skipping, looped directory detected
+/usr/share/fonts/truetype/droid: skipping, looped directory detected
+/usr/share/fonts/truetype/firacode: skipping, looped directory detected
+/usr/share/fonts/truetype/font-awesome: skipping, looped directory detected
+/usr/share/fonts/truetype/liberation: skipping, looped directory detected
+/usr/share/fonts/truetype/msttcorefonts: skipping, looped directory detected
+/usr/share/fonts/truetype/noto: skipping, looped directory detected
+/usr/share/fonts/truetype/ubuntu: skipping, looped directory detected
+/usr/share/fonts/type1/urw-base35: skipping, looped directory detected
+/usr/share/fonts/X11/encodings/large: skipping, looped directory detected
+/var/cache/fontconfig: not cleaning unwritable cache directory
+/home/kaustubh/.cache/fontconfig: cleaning cache directory
+/home/kaustubh/.cache/fontconfig: invalid cache file: 7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-9
+/home/kaustubh/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded

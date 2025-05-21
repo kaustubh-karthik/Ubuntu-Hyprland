@@ -1,0 +1,8 @@
+-- Install configuration: ""
+-- Installing: /usr/bin/hyprland-share-picker
+-- Up-to-date: /usr/bin/hyprland-share-picker
+-- Installing: /usr/lib/xdg-desktop-portal-hyprland
+-- Installing: /usr/share/xdg-desktop-portal/portals/hyprland.portal
+-- Installing: /usr/share/dbus-1/services/org.freedesktop.impl.portal.desktop.hyprland.service
+-- Installing: /usr/lib/systemd/user/xdg-desktop-portal-hyprland.service
+[32m[OK](B[m [35mxdg-desktop-portal-hyprland v1.3.2(B[m installed successfully.

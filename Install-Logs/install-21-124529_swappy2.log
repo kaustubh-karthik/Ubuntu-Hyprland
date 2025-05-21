@@ -1,0 +1,14 @@
+ninja: Entering directory `build'
+[0/1] Installing files.
+Installing subdir /home/kaustubh/Ubuntu-Hyprland-24.04/swappy/res/icons to /usr/local/share/icons
+Installing /home/kaustubh/Ubuntu-Hyprland-24.04/swappy/res/icons/hicolor/scalable/apps/swappy.svg to /usr/local/share/icons/hicolor/scalable/apps
+Installing src/po/de/LC_MESSAGES/swappy.mo to /usr/local/share/locale/de/LC_MESSAGES
+Installing src/po/fr/LC_MESSAGES/swappy.mo to /usr/local/share/locale/fr/LC_MESSAGES
+Installing src/po/en/LC_MESSAGES/swappy.mo to /usr/local/share/locale/en/LC_MESSAGES
+Installing src/po/pt_BR/LC_MESSAGES/swappy.mo to /usr/local/share/locale/pt_BR/LC_MESSAGES
+Installing src/po/tr/LC_MESSAGES/swappy.mo to /usr/local/share/locale/tr/LC_MESSAGES
+Installing src/po/zh_CN/LC_MESSAGES/swappy.mo to /usr/local/share/locale/zh_CN/LC_MESSAGES
+Installing src/po/swappy.desktop to /usr/local/share/applications
+Installing swappy to /usr/local/bin
+Installing swappy.1 to /usr/local/share/man/man1
+[32m[OK](B[m [35mswappy(B[m installed successfully.

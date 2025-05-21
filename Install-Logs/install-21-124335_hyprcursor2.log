@@ -1,0 +1,13 @@
+-- Install configuration: "Release"
+-- Installing: /usr/lib/x86_64-linux-gnu/libhyprcursor.so.0.1.9
+-- Installing: /usr/lib/x86_64-linux-gnu/libhyprcursor.so.0
+-- Installing: /usr/lib/x86_64-linux-gnu/libhyprcursor.so
+-- Installing: /usr/include/hyprcursor.hpp
+-- Installing: /usr/bin/hyprcursor-util
+-- Set non-toolchain portion of runtime path of "/usr/bin/hyprcursor-util" to ""
+-- Installing: /usr/include/hyprcursor
+-- Installing: /usr/include/hyprcursor/hyprcursor.hpp
+-- Installing: /usr/include/hyprcursor/shared.h
+-- Installing: /usr/include/hyprcursor/hyprcursor.h
+-- Installing: /usr/lib/x86_64-linux-gnu/pkgconfig/hyprcursor.pc
+[32m[OK](B[m [35mhyprcursor v0.1.9(B[m has been successfully installed.
